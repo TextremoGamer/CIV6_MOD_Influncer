@@ -61,14 +61,14 @@
 
 		<!-- 阿兹特克/蒙特祖玛 -->
         <UpdateDatabase id="WSInfluencerAztecMontezumaSQL">
-            <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
+            <File>Gameplay/Aztec/Montezuma/LuxuryCounter.sql</File>
         </UpdateDatabase>
 		<AddUserInterfaces id="WSInfluencerAztecMontezumaLua">
 			<Properties>
 				<Context>InGame</Context>
 				<LoadOrder>1000</LoadOrder>
 			</Properties>
-			<File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
+			<File>Gameplay/Aztec/Montezuma/LuxuryCounter.lua</File>
 		</AddUserInterfaces>
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
@@ -120,8 +120,8 @@
 
 	<Files>	
 		<!-- 阿兹特克/蒙特祖玛 -->
-        <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
-        <File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
+        <File>Gameplay/Aztec/Montezuma/LuxuryCounter.sql</File>
+        <File>Gameplay/Aztec/Montezuma/LuxuryCounter.lua</File>
 		<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
 
 		<File>Data/RequirementSets.xml</File>
