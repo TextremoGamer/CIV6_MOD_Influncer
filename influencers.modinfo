@@ -46,10 +46,31 @@
 			<File>Text/china/ws_qin_alt.xml</File>
 		</UpdateText>
 	</FrontEndActions> -->
+
+	<FrontEndActions>
+    	<!-- 阿兹特克/蒙特祖玛 -->
+    	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
+        	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
+    	</UpdateText>
+	</FrontEndActions>
+
 	<InGameActions>
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
+
+		<!-- 阿兹特克/蒙特祖玛 -->
+        <UpdateDatabase id="WSInfluencerAztecMontezumaSQL">
+            <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
+        </UpdateDatabase>
+        <AddGameplayScripts id="WSInfluencerAztecMontezumaLua">
+            <File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
+        </AddGameplayScripts>
+		<UpdateText id="WSInfluencerAztecMontezumaText">
+			<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
+    	</UpdateText>
+
+
 		<UpdateDatabase id="WSInfluencerCore">
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
@@ -103,6 +124,11 @@
 	</FrontEndActions>
 	-->
 	<Files>	
+		<!-- 阿兹特克/蒙特祖玛 -->
+        <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
+        <File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
+		<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
+
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
 		<File>Data/ReqSet/reqset_heros.xml</File>
@@ -130,6 +156,8 @@
 		<File>Data/leader_qin_alt.xml</File>
 		<File>Data/ConfigData.xml</File>
 		<File>Config/config_leader_qin_alt.xml</File>
+
+
 		<File>Text/china/qin_alt.xml</File>
 		<File>Text/china/qin_alt_hero.xml</File>
 	</Files>
