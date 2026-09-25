@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_MOD_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]风云人物包[ENDCOLOR]</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_NAME" Language="en_US">
+			<Text>[COLOR_RED]The Influencers[ENDCOLOR]</Text>
+		</Replace>
+
+		<Replace Tag="LOC_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>[COLOR_FLOAT_GOLD]阿兹特克[ENDCOLOR][NEWLINE][COLOR_GREEN]蒙特祖玛[ENDCOLOR][NEWLINE]奢侈品资源为军事单位+1 [ICON_Strength] 战斗力在进攻和防御时都有效。[ICON_RESOURCE_CINNAMON] 肉桂、[ICON_RESOURCE_CLOVES] 丁香、[ICON_RESOURCE_COSMETICS] 化妆品、[ICON_RESOURCE_JEANS] 牛仔裤、[ICON_RESOURCE_PERFUME] 香水、[ICON_RESOURCE_TOYS] 玩具不提供 [ICON_Strength] 战斗力加成。[NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]中国[ENDCOLOR][NEWLINE][COLOR_GREEN]秦始皇（大一统）[ENDCOLOR][NEWLINE]穷兵黩武、愚民奴役、大兴土木、霸权主义[NEWLINE][NEWLINE]移除火山、风暴、核事故和陨石]</Text>
+		</Replace>
+		<Replace Tag="LOC_MOD_DESCRIPTION" Language="en_US">
+			<Text>This mod scales up and balances various leaders and civs. Please check the in-game Civilopedia for details.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

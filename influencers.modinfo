@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Mod id="WSInfluencer" version="1">
+<Mod id="4396b797-2007-5ea0-bc87-9ff27103239a" version="1">
 	<Properties>
 		<Name>LOC_MOD_NAME</Name>
 		<Teaser>增强已有领袖和文明，添加更多文明和领袖。</Teaser>
-		<Description>秦始皇（大一统）获得额外能力：穷兵黩武、愚民奴役、大兴土木、霸权主义。移除火山、风暴、核事故和陨石。</Description>
-		<Authors>Zike Wang</Authors>
+		<Description>LOC_MOD_DESCRIPTION</Description>
+		<Authors>Textremo</Authors>
 		<ShowInBrowser>AlwaysShow</ShowInBrowser>
 		<EnabledByDefault>1</EnabledByDefault>
 		<EnabledAtStartup>1</EnabledAtStartup>
@@ -48,6 +48,11 @@
 	</FrontEndActions> -->
 
 	<FrontEndActions>
+		<!-- Mod本身介绍 -->
+		<UpdateText id="ModDescription">
+    		<File>description.xml</File>
+  		</UpdateText>
+
     	<!-- 阿兹特克/蒙特祖玛 -->
     	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
         	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
@@ -117,7 +122,10 @@
 	</LocalizedText>
 
 
-	<Files>	
+	<Files>
+		<!-- Mod本身介绍 -->
+		<File>description.xml</File>
+
 		<!-- 阿兹特克/蒙特祖玛 -->
         <File>Gameplay/Aztec/Montezuma/CombatBonus.sql</File>
 		<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
