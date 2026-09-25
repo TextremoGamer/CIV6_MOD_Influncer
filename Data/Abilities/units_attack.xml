@@ -2,15 +2,15 @@
 <GameInfo>
     <Modifiers>
         <!-- 每个奢饰+1力 -->
-        <Row>
+        <!-- <Row>
             <ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
             <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-        </Row>
+        </Row> -->
         <!-- 攻击不同信仰+5力 -->
-        <Row>
+        <!-- <Row>
 			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-		</Row>
+		</Row> -->
         <!-- 宗教昄一一个圣城+3力 & 击杀文明或城邦单位传教 -->
         <Row>
 			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>
@@ -31,17 +31,17 @@
     </Modifiers>
     <ModifierArguments>
         <!-- 每个奢饰+1力 -->
-        <Row>
+        <!-- <Row>
 			<ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_MONTEZUMA_COMBAT_BONUS_PER_LUXURY</Value>
-		</Row>
+		</Row> -->
         <!-- 攻击不同信仰+5力 -->
-        <Row>
+        <!-- <Row>
 			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_PHILIP_II_COMBAT_BONUS_OTHER_RELIGION</Value>
-		</Row>
+		</Row> -->
         <!-- 宗教昄一一个圣城+3力 & 击杀文明或城邦单位传教 -->
         <Row>
 			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>

@@ -11,6 +11,11 @@
         	<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
             <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
     	</Row>
+		<!-- 额外4区域 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
+		</Row>
     </Modifiers>
     <ModifierArguments>
         <!-- 减少50%科技 -->
@@ -34,6 +39,12 @@
 			<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
 			<Name>Amount</Name>
 			<Value>-50</Value>
+		</Row>
+		<!-- 额外4区域 -->
+		<Row>
+			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
 		</Row>
     </ModifierArguments>
 </GameInfo>

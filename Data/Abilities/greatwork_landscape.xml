@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <Modifiers>
+		<!-- 加4食物  -->
+        <Row>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
         <!-- 雕塑加1生产力  -->
         <Row>
 			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
@@ -13,21 +18,21 @@
 		</Row>
     </Modifiers>
     <ModifierArguments>
-        <!-- 雕塑加1生产力  -->
+        <!-- 加4食物  -->
         <Row>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
 			<Name>GreatWorkObjectType</Name>
 			<Value>GREATWORKOBJECT_LANDSCAPE</Value>
 		</Row>
 		<Row>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
 			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
+			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
 			<Name>YieldChange</Name>
-			<Value>1</Value>
+			<Value>4</Value>
 		</Row>
         <!-- 雕塑加5金  -->
         <Row>

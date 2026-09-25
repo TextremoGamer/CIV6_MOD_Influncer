@@ -6,7 +6,8 @@
 			<Text>穷兵黩武</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_MILITANCY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以用 [ICON_Faith] 信仰购买战斗单位。每个奢饰品+1 [ICON_Strength] 战斗力，每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力, 与不同信仰单位作战+5 [ICON_Strength] 战斗力。 占领城市可将其升级为军团或军队。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+			<Text>每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力。 占领城市可将其升级为军团或军队。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。</Text>
+			<!-- <Text>可以用 [ICON_Faith] 信仰购买战斗单位。每个奢饰品+1 [ICON_Strength] 战斗力，每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力, 与不同信仰单位作战+5 [ICON_Strength] 战斗力。 占领城市可将其升级为军团或军队。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。</Text> -->
 			<!-- <Text>可以用 [ICON_Faith] 信仰购买战斗单位。每个奢饰品+1 [ICON_Strength] 战斗力，每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力, 与不同信仰单位作战+5 [ICON_Strength] 战斗力。 所有单位+2 [ICON_Movement] 移动力，占领城市可将其升级为军团或军队。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。</Text> -->
 			<!-- <Text>可以用 [ICON_Faith] 信仰购买战斗单位。每个奢饰品+1 [ICON_Strength] 战斗力，每有一座宗教昄依的圣城，单位+3 [ICON_Strength] 战斗力, 与不同信仰单位作战+5 [ICON_Strength] 战斗力。 所有单位+2 [ICON_Movement] 移动力，占领城市可将其升级为军团或军队；对采石场、牧场、种植园和露营地发动掠夺时除 [ICON_FAITH] 信仰值外还将获得 [ICON_CULTURE] 文化值。战斗胜利后，传播宗教，俘获（非蛮族）敌人成工人或坑杀敌人获得击杀单位 [ICON_Strength] 战斗力25%的 [ICON_Culture] 文化值、100%的 [ICON_Faith] 信仰值、50%的 [ICON_Gold] 金币和20点 [ICON_GreatGeneral] 大将军或 [ICON_GreatAdmiral] 海军统帅点数。对矿山发动掠夺时除 [ICON_GOLD] 金币外还将获得 [ICON_SCIENCE] 科技值。</Text> -->
 		</Replace>
@@ -14,7 +15,7 @@
 			<Text>愚民奴役</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_FOOLISH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市减少50% [ICON_Science] 科技值和 [ICON_Culture] 文化值。建造远古、古典的奇观或区域时，可以使用建造者推进25%的进度。</Text>
+			<Text>可以用 [ICON_Faith] 信仰购买战斗单位。城市减少50% [ICON_Science] 科技值和 [ICON_Culture] 文化值。建造远古、古典的奇观或区域时，可以使用建造者推进25%的进度。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILENG_NAME" Language="zh_Hans_CN">
 			<Text>大兴土木</Text>
@@ -23,7 +24,8 @@
 			<Text>宫殿拥有6个巨作槽位，[ICON_GreatWork_Sculpture] 雕塑、[ICON_GreatWork_Portrait] 肖像、[ICON_GreatWork_Landscape] 风景、[ICON_GreatWork_Religious] 宗教巨作、[ICON_GreatWork_Artifact] 文物、[ICON_GreatWork_Writing] 著作、[ICON_GreatWork_Music] 音乐[ICON_GreatWork_Relic] 遗物+1 [ICON_Production] 生产力和+5 [ICON_Gold] 金币。游戏初期便解锁“占星术”和“造船术”，解锁“砌砖”科技的同时也解锁“运河”。玩家创建或攻占的城市自动拥有贸易站且自动创建一条通向首都的路（如果位于首都贸易路线范围内），本国领土的道路提升一个等级。每座城市都能建造比平成多4个区域（无视 [ICON_Citizen] 人口数量限制）。</Text>
 		</Replace> -->
 		<Replace Tag="LOC_TRAIT_CIVILENG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>宫殿拥有6个巨作槽位，[ICON_GreatWork_Sculpture] 雕塑、[ICON_GreatWork_Portrait] 肖像、[ICON_GreatWork_Landscape] 风景、[ICON_GreatWork_Religious] 宗教巨作、[ICON_GreatWork_Artifact] 文物、[ICON_GreatWork_Writing] 著作、[ICON_GreatWork_Music] 音乐[ICON_GreatWork_Relic] 遗物+5 [ICON_Gold] 金币。游戏初期便解锁“占星术”和“造船术”，解锁“砌砖”科技的同时也解锁“运河”。玩家创建或攻占的城市自动拥有贸易站且自动创建一条通向首都的路（如果位于首都贸易路线范围内），本国领土的道路提升一个等级。每座城市都能建造比平成多4个区域（无视 [ICON_Citizen] 人口数量限制）。</Text>
+			<!-- <Text>宫殿拥有6个巨作槽位，[ICON_GreatWork_Sculpture] 雕塑、[ICON_GreatWork_Portrait] 肖像、[ICON_GreatWork_Landscape] 风景、[ICON_GreatWork_Religious] 宗教巨作、[ICON_GreatWork_Artifact] 文物、[ICON_GreatWork_Writing] 著作、[ICON_GreatWork_Music] 音乐[ICON_GreatWork_Relic] 遗物+5 [ICON_Gold] 金币。游戏初期便解锁“占星术”和“造船术”，解锁“砌砖”科技的同时也解锁“运河”。玩家创建或攻占的城市自动拥有贸易站且自动创建一条通向首都的路（如果位于首都贸易路线范围内），本国领土的道路提升一个等级。每座城市都能建造比平成多4个区域（无视 [ICON_Citizen] 人口数量限制）。</Text> -->
+			<Text>宫殿拥有6个巨作槽位，[ICON_GreatWork_Sculpture] 雕塑、[ICON_GreatWork_Portrait] 肖像、[ICON_GreatWork_Landscape] 风景、[ICON_GreatWork_Religious] 宗教巨作、[ICON_GreatWork_Artifact] 文物、[ICON_GreatWork_Writing] 著作、[ICON_GreatWork_Music] 音乐[ICON_GreatWork_Relic] 遗物+4 [ICON_Food] 食物。游戏初期便解锁“占星术”和“造船术”，解锁“砌砖”科技的同时也解锁“运河”。玩家创建或攻占的城市自动拥有贸易站且自动创建一条通向首都的路（如果位于首都贸易路线范围内），本国领土的道路提升一个等级。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_HEGEMONISM_NAME" Language="zh_Hans_CN">

@@ -22,14 +22,14 @@
 			<ModifierId>WS_AB_UNITS_MOVEMENT_ADD_02</ModifierId>
 		</Row> -->
 		<!-- 穷兵黩武——加力 -->
-		<Row>
+		<!-- <Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
-		</Row>
-		<Row>
+		</Row> -->
+		<!-- <Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
-		</Row>
+		</Row> -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>
@@ -203,6 +203,40 @@
 
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_MUSIC_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIC_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_FOOD_ADD_04</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
+			<ModifierId>WS_AB_GREAT_WORK_WRITING_FOOD_ADD_04</ModifierId>
+		</Row>
+
+		<!-- 巨作加金币 -->
+		<!-- <Row>
+			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_GOLD_ADD_05</ModifierId>
 		</Row>
 		<Row>
@@ -232,7 +266,7 @@
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>WS_AB_GREAT_WORK_WRITING_GOLD_ADD_05</ModifierId>
-		</Row>
+		</Row> -->
 
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
@@ -257,10 +291,6 @@
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_TRADING_POSTS</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
 		<!-- 霸权主义 —— 城邦-->
@@ -322,10 +352,7 @@
 			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_EXTRA_DISTRICT</ModifierType>
-		</Row>
+		
 		
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
@@ -384,11 +411,6 @@
 			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_AREA</ModifierId>
-			<Name>Amount</Name>
-			<Value>4</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
