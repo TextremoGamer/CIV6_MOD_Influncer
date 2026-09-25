@@ -63,9 +63,13 @@
         <UpdateDatabase id="WSInfluencerAztecMontezumaSQL">
             <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
         </UpdateDatabase>
-        <AddGameplayScripts id="WSInfluencerAztecMontezumaLua">
-            <File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
-        </AddGameplayScripts>
+		<AddUserInterfaces id="WSInfluencerAztecMontezumaLua">
+			<Properties>
+				<Context>InGame</Context>
+				<LoadOrder>1000</LoadOrder>
+			</Properties>
+			<File>Gameplay/Aztec/Montezuma/Montezuma.lua</File>
+		</AddUserInterfaces>
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
     	</UpdateText>
@@ -113,16 +117,7 @@
 		</Text>
 	</LocalizedText>
 
-	<!--
-	<FrontEndActions>
-		<UpdateDatabase id="Enhanced_China_ConfigData">
-			<File>Data/ConfigData.xml</File>
-		</UpdateDatabase>
-		<UpdateText id="Enhanced_China_Text">			
-			<File Priority="1">Text/text.xml</File>			
-		</UpdateText>
-	</FrontEndActions>
-	-->
+
 	<Files>	
 		<!-- 阿兹特克/蒙特祖玛 -->
         <File>Gameplay/Aztec/Montezuma/Montezuma.sql</File>
