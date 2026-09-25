@@ -12,14 +12,177 @@
 			<Text>Luxury resources in his territory provide an [ICON_Amenities] Amenity to 2 extra cities. Military units receive +1 [ICON_Strength] Combat Strength for each different Luxury resource improved in Aztec lands. [ICON_RESOURCE_CINNAMON] Cinnamon, [ICON_RESOURCE_CLOVES] Cloves, [ICON_RESOURCE_COSMETICS] Cosmetics, [ICON_RESOURCE_JEANS] Jeans, [ICON_RESOURCE_PERFUME] Perfume, [ICON_RESOURCE_TOYS] Toys do not offer [ICON_Strength] Combat Strength. </Text>
 		</Replace>
 
-		<!-- 战斗预测寂寞描述 -->
-		<Row Tag="LOC_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
-			<Text>Combat Strength from Luxuries</Text>
-		</Row>
-		<Replace Tag="LOC_MONTEZUMA_COMBAT_BONUS_PER_LUXURY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每个奢饰攻击加成</Text>
-		</Replace>
-
+		<!-- 战斗预测描述：28 种指定奢侈品的专属独立行文本（格式：+1[图标]名称） -->
+		<!-- 中文 -->
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_GYPSUM" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_GYPSUM] 石膏</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_MARBLE" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_MARBLE] 大理石</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_AMBER" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_AMBER] 琥珀</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_DIAMONDS" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_DIAMONDS] 钻石</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_MERCURY" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_MERCURY] 水银</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_JADE" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_JADE] 玉石</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SALT" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_SALT] 盐</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SILVER" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_SILVER] 白银</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_FURS" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_FURS] 皮草</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_IVORY" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_IVORY] 象牙</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_HONEY" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_HONEY] 蜂蜜</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TRUFFLES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_TRUFFLES] 松露</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_CITRUS" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_CITRUS] 柑橘</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COCOA" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_COCOA] 可可豆</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COFFEE" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_COFFEE] 咖啡</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COTTON" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_COTTON] 棉花</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_DYES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_DYES] 染料</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_INCENSE" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_INCENSE] 熏香</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_OLIVES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_OLIVES] 橄榄</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SILK" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_SILK] 丝绸</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SPICES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_SPICES] 香料</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SUGAR" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_SUGAR] 糖</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TEA" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_TEA] 茶叶</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TOBACCO" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_TOBACCO] 烟草</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_WINE" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_WINE] 葡萄酒</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_WHALES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_WHALES] 鲸鱼</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_PEARLS" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_PEARLS] 珍珠</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TURTLES" Language="zh_Hans_CN">
+            <Text>+1 [ICON_RESOURCE_TURTLES] 海龟</Text>
+        </Replace>
+        <!-- 英文 -->
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_GYPSUM" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_GYPSUM] Gypsum</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_MARBLE" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_MARBLE] Marble</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_AMBER" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_AMBER] Amber</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_DIAMONDS" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_DIAMONDS] Diamonds</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_MERCURY" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_MERCURY] Mercury</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_JADE" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_JADE] Jade</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SALT" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_SALT] Salt</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SILVER" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_SILVER] Silver</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_FURS" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_FURS] Furs</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_IVORY" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_IVORY] Ivory</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_HONEY" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_HONEY] Honey</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TRUFFLES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_TRUFFLES] Truffles</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_CITRUS" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_CITRUS] Citrus</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COCOA" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_COCOA] Cocoa</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COFFEE" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_COFFEE] Coffee</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_COTTON" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_COTTON] Cotton</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_DYES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_DYES] Dyes</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_INCENSE" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_INCENSE] Incense</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_OLIVES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_OLIVES] Olives</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SILK" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_SILK] Silk</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SPICES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_SPICES] Spices</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_SUGAR" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_SUGAR] Sugar</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TEA" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_TEA] Tea</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TOBACCO" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_TOBACCO] Tobacco</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_WINE" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_WINE] Wine</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_WHALES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_WHALES] Whales</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_PEARLS" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_PEARLS] Pearls</Text>
+        </Replace>
+        <Replace Tag="LOC_MONTEZUMA_LUX_BONUS_RESOURCE_TURTLES" Language="en_US">
+            <Text>+1 [ICON_RESOURCE_TURTLES] Turtles</Text>
+        </Replace>
 
 		
 	</LocalizedText>
