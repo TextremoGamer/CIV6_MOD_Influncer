@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+英文:       DLC\Babylon\Text\en_US\Babylon_ConfigText.xml
+
+其他语言:   DLC\Babylon\Text\Babylon_Translations_ConfigText.xml
+-->
+<GameData>
+  	<LocalizedText>
+        <!-- 巴比伦诸神 -->
+        <!-- 中文 -->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN">
+            <Text>游戏初期解锁火药。建立或占领城市获得一个当前最强的近战单位。[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-50%。</Text>
+        </Replace>
+        <!-- 英文 -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION">
+			<Text>Unlock Gunpower in the beginning. Founding or capturing a city immediately grants a strongest melee unit. [ICON_TechBoosted] Eurekas provide all of the [ICON_SCIENCE] Science for technologies. -50% [ICON_SCIENCE] Science per turn.</Text>
+		</Row>
+    </LocalizedText>
+</GameData>
+
+
+

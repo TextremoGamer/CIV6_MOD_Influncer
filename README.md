@@ -12,10 +12,13 @@
     * `DLC\Expansion2\Data\Expansion2_Civilizations.xml`: 搜索`TRAIT_AVOID_MODERATE_FLOOD`可以免疫天灾
 
 ## Civlizations & Leaders
+### 巴比伦
+- 巴比伦诸神
+    新增：游戏初期解锁火药。建立或占领城市获得一个当前最强的近战单位。
 ### 阿兹特克(Aztec)
 - 蒙特祖玛
     - 送给国王的礼物(Gifts for Tlatoani)<br>
-        奢饰品提供的战斗力加成在进攻和防守都生效。肉桂、丁香、化妆品、牛仔裤、香水、玩具不提供战斗力加成。
+        修改：奢饰品提供的战斗力加成在进攻和防守都生效。肉桂、丁香、化妆品、牛仔裤、香水、玩具不提供战斗力加成。
 
 ### China
 #### Leaders 

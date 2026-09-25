@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  
+
+
+  <!-- <Modifiers>
+    <Row>
+      <ModifierId>BABYLON_CIV_START_GDR</ModifierId>
+<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+</Row>
+</Modifiers>
+
+<ModifierArguments>
+<Row>
+<ModifierId>BABYLON_CIV_START_GDR</ModifierId>
+<Name>UnitType</Name>
+<Value>UNIT_GIANT_DEATH_ROBOT</Value>
+</Row>
+<Row>
+<ModifierId>BABYLON_CIV_START_GDR</ModifierId>
+<Name>Amount</Name>
+<Value>1</Value>
+</Row>
+</ModifierArguments>
+
+<TraitModifiers>
+<Row>
+<TraitType>TRAIT_CIVILIZATION_BABYLON</TraitType>
+<ModifierId>BABYLON_CIV_START_GDR</ModifierId>
+</Row>
+</TraitModifiers> -->
+</GameData>

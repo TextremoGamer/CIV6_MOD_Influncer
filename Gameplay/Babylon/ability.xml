@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 解锁火药 -->
+        <Row>
+			<ModifierId>WS_Babylon_SCI_GRANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+        <!-- 建立城市获得最强近战单位 -->
+        <Row>
+			<ModifierId>WS_Babylon_FREE_MELEE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_UNIT_BY_CLASS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 解锁火药 -->
+		<Row>
+			<ModifierId>WS_Babylon_SCI_GRANT</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_GUNPOWDER</Value>
+		</Row>
+        <!-- 建立城市获得最强近战单位 -->
+        <Row>
+			<ModifierId>WS_Babylon_FREE_MELEE_UNIT</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+    </ModifierArguments>
+
+    <!-- 绑定技能到巴比伦诸神 -->
+    <TraitModifiers>
+        <Row TraitType="TRAIT_CIVILIZATION_BABYLON" ModifierId="WS_Babylon_SCI_GRANT"/>
+        <Row TraitType="TRAIT_CIVILIZATION_BABYLON" ModifierId="WS_Babylon_FREE_MELEE_UNIT"/>
+    </TraitModifiers>
+</GameInfo>
