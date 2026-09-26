@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Types>
+		<Row Type="WS_AB_UNIT_COLLECT_RECRUIT" Kind="KIND_ABILITY"/>	<!-- Unit Abilities -->
+	</Types>
+	<TypeTags>
+		<Row Type="WS_AB_UNIT_COLLECT_RECRUIT" Tag="CLASS_MELEE"/>
+		<Row Type="WS_AB_UNIT_COLLECT_RECRUIT" Tag="CLASS_ANTI_CAVALRY"/>
+	</TypeTags>
+
+    <UnitAbilities>
+		<Row UnitAbilityType="WS_AB_UNIT_COLLECT_RECRUIT" Name="WS_AB_UNIT_COLLECT_RECRUIT_NAME" Description="WS_AB_UNIT_COLLECT_RECRUIT_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+    <UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>WS_AB_UNIT_COLLECT_RECRUIT</UnitAbilityType>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_CHARGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>WS_AB_UNIT_COLLECT_RECRUIT</UnitAbilityType>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_BARBS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+
+	<!-- unit ability details -->
+    <Modifiers>
+         <Row>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_CHARGE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_RELIGIOUS_SPREADS</ModifierType>
+		</Row>
+        <Row>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_BARBS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_CONVERTS_BARBARIANS</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_CHARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+        <Row>
+			<ModifierId>WS_AB_UNIT_COLLECT_RECRUIT_BARBS</ModifierId>
+			<Name>Converts</Name>
+			<Value>true</Value>
+		</Row>
+    </ModifierArguments>
+
+</GameInfo>

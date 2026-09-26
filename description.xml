@@ -9,7 +9,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_MOD_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[COLOR_FLOAT_GOLD]阿兹特克[ENDCOLOR][NEWLINE][COLOR_GREEN]蒙特祖玛[ENDCOLOR][NEWLINE]奢侈品资源为军事单位+1 [ICON_Strength] 战斗力在进攻和防御时都有效。[ICON_RESOURCE_CINNAMON] 肉桂、[ICON_RESOURCE_CLOVES] 丁香、[ICON_RESOURCE_COSMETICS] 化妆品、[ICON_RESOURCE_JEANS] 牛仔裤、[ICON_RESOURCE_PERFUME] 香水、[ICON_RESOURCE_TOYS] 玩具不提供 [ICON_Strength] 战斗力加成。[NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]巴比伦[ENDCOLOR][NEWLINE]游戏初期解锁火药。建立或占领城市获得一个当前最强的近战单位。[NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]中国[ENDCOLOR][NEWLINE]城市减少50%生产力、科技值和文化值，尤里卡和鼓舞不再提供科技与市政。[NEWLINE]建造奇观或区域时，可以使用建造者推进25%的进度。[NEWLINE][COLOR_GREEN]秦始皇（大一统）[ENDCOLOR][NEWLINE]穷兵黩武、愚民奴役、大兴土木、霸权主义[NEWLINE][NEWLINE]移除火山、风暴、核事故和陨石]</Text>
+			<Text>[COLOR_FLOAT_GOLD]阿兹特克[ENDCOLOR][NEWLINE][COLOR_GREEN]蒙特祖玛[ENDCOLOR][NEWLINE]奢侈品资源为军事单位+1 [ICON_Strength] 战斗力在进攻和防御时都有效。[ICON_RESOURCE_CINNAMON] 肉桂、[ICON_RESOURCE_CLOVES] 丁香、[ICON_RESOURCE_COSMETICS] 化妆品、[ICON_RESOURCE_JEANS] 牛仔裤、[ICON_RESOURCE_PERFUME] 香水、[ICON_RESOURCE_TOYS] 玩具不提供 [ICON_Strength] 战斗力加成。[NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]巴比伦[ENDCOLOR][NEWLINE]游戏初期解锁火药。建立或占领城市获得一个当前最强的近战单位。[NEWLINE][NEWLINE][COLOR_FLOAT_GOLD]中国[ENDCOLOR][NEWLINE]近战和抗骑兵单位可以归顺蛮族，初始次数为1，获得圣索菲亚大教堂后变为2次，次数耗尽则单位消失。[NEWLINE]城市减少50%生产力、科技值和文化值，尤里卡和鼓舞不再提供科技与市政。[NEWLINE]建造奇观或区域时，可以使用建造者推进25%的进度。[NEWLINE][COLOR_GREEN]秦始皇（大一统）[ENDCOLOR][NEWLINE]穷兵黩武、愚民奴役、大兴土木、霸权主义[NEWLINE][NEWLINE]移除火山、风暴、核事故和陨石]</Text>
 		</Replace>
 		<Replace Tag="LOC_MOD_DESCRIPTION" Language="en_US">
 			<Text>This mod scales up and balances various leaders and civs. Please check the in-game Civilopedia for details.</Text>

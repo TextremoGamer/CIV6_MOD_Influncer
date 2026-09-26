@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <TraitModifiers>
+		<!-- collectivism -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_AB_CIV_CHINA_COLLECTIVISM_RECRUIT_BARBS" />
 		<!-- foolish -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_CITY_DECREASE_SCIENCE_50" />
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_CITY_DECREASE_CULTURE_50" />

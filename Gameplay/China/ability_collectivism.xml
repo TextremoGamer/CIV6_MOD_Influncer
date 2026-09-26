@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 为集体而战 -->
+        <Row>
+			<ModifierId>WS_AB_CIV_CHINA_COLLECTIVISM_RECRUIT_BARBS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 为集体而战 -->
+        <Row>
+			<ModifierId>WS_AB_CIV_CHINA_COLLECTIVISM_RECRUIT_BARBS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>WS_AB_UNIT_COLLECT_RECRUIT</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>
