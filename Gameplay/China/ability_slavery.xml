@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 工人推进区域和奇观25%的进度 -->
+        <Row>
+			<ModifierId>WS_CHINA_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_BUILDER_WONDER_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 工人推进区域和奇观25%的进度 -->
+		<Row>
+			<ModifierId>WS_CHINA_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_BUILDER_WONDER_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

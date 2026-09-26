@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+		<!-- 减少50%科技、文化和生产力 -->
+        <Row>
+            <ModifierId>WS_CHINA_CITY_DECREASE_SCIENCE_50</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+        </Row>
+        <Row>
+        	<ModifierId>WS_CHINA_CITY_DECREASE_CULTURE_50</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    	</Row>
+		<Row>
+        	<ModifierId>WS_CHINA_CITY_DECREASE_PRODUCTION_50</ModifierId>
+            <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    	</Row>
+		<!-- 尤里卡不提供科技、鼓舞不提供市政 -->
+		<Row>
+			<ModifierId>WS_CHINA_EUREKA_ZERO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType> <!-- `MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST`来自Base\Assets\Gameplay\Data\Modifiers.xml -->
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_INSPIRATIONS_ZERO</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType> <!-- `MODIFIER_PLAYER_ADJUST_CIVIC_BOOST`来自Base\Assets\Gameplay\Data\Modifiers.xml -->
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+		<!-- 减少50%科技和文化 -->
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_SCIENCE_50</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_SCIENCE_50</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_CULTURE_50</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_CULTURE_50</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_PRODUCTION_50</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_CITY_DECREASE_PRODUCTION_50</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<!-- 尤里卡不提供科技、鼓舞不提供市政 -->
+        <Row>
+			<ModifierId>WS_CHINA_EUREKA_ZERO</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_CHINA_INSPIRATIONS_ZERO</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

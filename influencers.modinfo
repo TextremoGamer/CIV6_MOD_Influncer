@@ -11,13 +11,13 @@
 		<CompatibleVersions>2.0</CompatibleVersions>
 		<AffectsSavedGames>1</AffectsSavedGames>
 	</Properties>
-	<Dependencies>
+	<!-- <Dependencies>
 		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
 		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
 		<Mod id="3809975F-263F-40A2-A747-8BFB171D821A" title="LOC_POLAND_JADWIGA_MOD_TITLE"/>
 		<Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="LOC_GRANCOLOMBIA_MAYA_MOD_TITLE"/>
 		<Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="DLC: Babylon Pack" />
-	</Dependencies>
+	</Dependencies> -->
 	<References>
 		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="LOC_EXPANSION1_MOD_TITLE"/>
 		<Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
@@ -27,7 +27,17 @@
 	</References>
 	<!-- 替换条件 -->
 	<ActionCriteria>
+		<Criteria id="Expansion1">
+			<RuleSet>RULESET_EXPANSION_1</RuleSet>
+		</Criteria>
 		<Criteria id="Expansion2">
+			<RuleSet>RULESET_EXPANSION_2</RuleSet>
+		</Criteria>
+		<Criteria id="Vanilla">
+			<RuleSet>RULESET_STANDARD</RuleSet>
+		</Criteria>
+
+		<!-- <Criteria id="Expansion2">
 			<GameCoreInUse>Expansion2</GameCoreInUse>
 		</Criteria>
 		<Criteria Id="HeroesMode_Active">
@@ -36,34 +46,33 @@
 				<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
 				<Value>1</Value>
 			</ConfigurationValueMatches>
-		</Criteria>
+		</Criteria> -->
 	</ActionCriteria>
-	<!-- <FrontEndActions>
-		<UpdateDatabase id="WSInfluencerLeaders_FE">
-			<File>Config/config_leader_qin_alt.xml</File>
-		</UpdateDatabase>
-		<UpdateText id="WSInfluencerText_FE">
-			<File>Text/china/ws_qin_alt.xml</File>
-		</UpdateText>
-	</FrontEndActions> -->
 
+	<!-- 选人界面 -->
 	<FrontEndActions>
 		<!-- Mod本身介绍 -->
 		<UpdateText id="ModDescription">
     		<File>description.xml</File>
   		</UpdateText>
 
+    	<!-- 阿兹特克/蒙特祖玛 -->
+    	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
+        	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
+    	</UpdateText>
+
 		<!-- 巴比伦 -->
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Babylon/text.xml</File>
     	</UpdateText>
 
-    	<!-- 阿兹特克/蒙特祖玛 -->
-    	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
-        	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
+		<!-- 中国 -->
+		<UpdateText id="WSFEChinaText">
+			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
 	</FrontEndActions>
 
+	<!-- 游戏中 -->
 	<InGameActions>
 		<!-- 阿兹特克/蒙特祖玛 -->
         <UpdateDatabase id="WSInfluencerAztecMontezumaSQL">
@@ -86,6 +95,17 @@
         </UpdateDatabase>
 		<UpdateText id="WSInfluencerBabylonText">
 			<File>Gameplay/Babylon/text.xml</File>
+    	</UpdateText>
+
+		<!-- 中国 -->
+		<UpdateDatabase id="WSInfluencerChinaAbility">
+			<File>Gameplay/China/ability_foolish.xml</File>
+			<File>Gameplay/China/ability_slavery_unitcommands.xml</File>
+			<File>Gameplay/China/ability_slavery.xml</File>
+			<File>Gameplay/China/ability.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="WSInfluencerChinaText">
+			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
 
 
@@ -146,6 +166,13 @@
 		<!-- 巴比伦 -->
 		<File>Gameplay/Babylon/ability.xml</File>
 		<File>Gameplay/Babylon/text.xml</File>
+
+		<!-- 中国 -->
+		<File>Gameplay/China/ability_foolish.xml</File>
+		<File>Gameplay/China/ability_slavery.xml</File>
+		<File>Gameplay/China/ability_slavery_unitcommands.xml</File>
+		<File>Gameplay/China/ability.xml</File>
+		<File>Gameplay/China/text.xml</File>
 
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>

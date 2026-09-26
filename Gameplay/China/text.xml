@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+中国
+Expansion1的描述定义来自`DLC\Expansion1\Data\Expansion1_Civilizations.xml`
+Expansion1的描述定义来自`DLC\Expansion2\Data\Expansion2_Civilizations.xml`
+-->
+<GameData>
+  	<LocalizedText>
+        <!-- 法家主义 -->
+        <!-- 中文 -->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" Language="zh_Hans_CN">
+			<Text>法家主义</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市减少50% [ICON_Production] 生产力、 [ICON_Science] 科技值和 [ICON_Culture] 文化值，[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞不再提供科技与市政。[NEWLINE]建造奇观或区域时，可以使用建造者推进25%的进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市减少50% [ICON_Production] 生产力、 [ICON_Science] 科技值和 [ICON_Culture] 文化值，[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞不再提供科技与市政。[NEWLINE]建造奇观或区域时，可以使用建造者推进25%的进度。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市减少50% [ICON_Production] 生产力、 [ICON_Science] 科技值和 [ICON_Culture] 文化值，[ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞不再提供科技与市政。[NEWLINE]建造奇观或区域时，可以使用建造者推进25%的进度。</Text>
+		</Replace>
+
+		<!-- 英文 -->
+        <Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME">
+			<Text>Chinese Legalism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION">
+			<Text>Cities yield 50% less [ICON_Production] Production, [ICON_Science] Science and [ICON_Culture] Culture, [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations no longer provide civics and technologies. [NEWLINE]Builders can be expended to complete 25% of a Wonder or District's construction progress.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION">
+			<Text>Cities yield 50% less [ICON_Production] Production, [ICON_Science] Science and [ICON_Culture] Culture, [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations no longer provide civics and technologies. [NEWLINE]Builders can be expended to complete 25% of a Wonder or District's construction progress.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION">
+			<Text>Cities yield 50% less [ICON_Production] Production, [ICON_Science] Science and [ICON_Culture] Culture, [ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations no longer provide civics and technologies. [NEWLINE]Builders can be expended to complete 25% of a Wonder or District's construction progress.</Text>
+		</Row>
+    </LocalizedText>
+</GameData>
+
+
+
+
+

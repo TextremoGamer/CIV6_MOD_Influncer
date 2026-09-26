@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <TraitModifiers>
+		<!-- foolish -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_CITY_DECREASE_SCIENCE_50" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_CITY_DECREASE_CULTURE_50" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_CITY_DECREASE_PRODUCTION_50" />		
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_EUREKA_ZERO" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_INSPIRATIONS_ZERO" />
+		<!-- slavery -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_BUILDER_DISTRICT_PERCENT" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_CHINA_BUILDER_WONDER_PERCENT" />
+		<!-- remove the previous -->
+		<Delete TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_CIVIC_BOOST"/>
+        <Delete TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_TECHNOLOGY_BOOST"/>
+        <Delete TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_CIVIC_BOOST_WONDER_ERA"/>
+        <Delete TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="TRAIT_TECHNOLOGY_BOOST_WONDER_ERA"/>
+	</TraitModifiers>  
+
+	 <!-- <CivilizationTraits>
+        <Delete CivilizationType="CIVILIZATION_CHINA" TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE"/>
+    </CivilizationTraits>   -->
+</GameInfo>

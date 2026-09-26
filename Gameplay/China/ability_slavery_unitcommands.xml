@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <!-- 单位指令修改 -->
+    <UnitCommands>
+        <!-- 工人推奇观25%进度（不限制时代） -->
+        <Update>
+            <Where CommandType="UNITCOMMAND_WONDER_PRODUCTION"/>
+            <Set MaxEra="8"/>
+        </Update>
+    </UnitCommands>
+</GameInfo>
