@@ -1,16 +1,6 @@
 # CIV6 MOD Influencer
 文明6风云人物包：增强已有领袖和文明，添加更多文明和领袖。
 
-## Sources
-* 天启模式<br>
-    * `DLC\GranColombia_Maya\Data\GranColombia_Maya_RandomEvents_MODE.xml`
-    * `DLC\GranColombia_Maya\Data\GranColombia_Maya_RandomEvents_Vikings_MODE.xml`
-    * `DLC\GranColombia_Maya\Data\GranColombia_Maya_UnitOperations_MODE.xml`
-    * `DLC\GranColombia_Maya\Data\GranColombia_Maya_UnitPromotions_MODE.xml`
-    * `DLC\GranColombia_Maya\Data\GranColombia_Maya_Units_MODE.xml`
-    * `DLC\Expansion2\Data\Expansion2_RandomEvents.xml`: 随机事件类型 & 名字
-    * `DLC\Expansion2\Data\Expansion2_Civilizations.xml`: 搜索`TRAIT_AVOID_MODERATE_FLOOD`可以免疫天灾
-
 ## Civlizations
 ### 阿兹特克(Aztec)
 - 蒙特祖玛
@@ -33,3 +23,11 @@
 ### 技能描述
 - `Base\Assets\Text\en_US\*` 英文
 - `Base\Assets\Text\Vanilla_zh_Hans_CN.xml` 中文
+### 天启模式
+* `DLC\GranColombia_Maya\Data\GranColombia_Maya_RandomEvents_MODE.xml`
+* `DLC\GranColombia_Maya\Data\GranColombia_Maya_RandomEvents_Vikings_MODE.xml`
+* `DLC\GranColombia_Maya\Data\GranColombia_Maya_UnitOperations_MODE.xml`
+* `DLC\GranColombia_Maya\Data\GranColombia_Maya_UnitPromotions_MODE.xml`
+* `DLC\GranColombia_Maya\Data\GranColombia_Maya_Units_MODE.xml`
+* `DLC\Expansion2\Data\Expansion2_RandomEvents.xml`: 随机事件类型 & 名字
+* `DLC\Expansion2\Data\Expansion2_Civilizations.xml`: 搜索`TRAIT_AVOID_MODERATE_FLOOD`可以免疫天灾
