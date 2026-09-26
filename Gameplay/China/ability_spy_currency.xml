@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 提升间谍容量 - 增加1个（需要货币） -->
+        <Row>
+			<ModifierId>WS_AB_SPY_CAPACITY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPY</ModifierType>
+			<OwnerRequirementsetId>WS_REQSET_TECH_CURRENCY</OwnerRequirementsetId>
+		</Row>
+        <!-- 获得间谍 - 获得1个（需要货币） -->
+        <Row>
+			<ModifierId>WS_AB_SPY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>WS_REQSET_TECH_CURRENCY</OwnerRequirementsetId>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 提升间谍容量 - 增加1个（需要货币） -->
+        <Row>
+			<ModifierId>WS_AB_SPY_CAPACITY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+        <!-- 获得间谍 - 获得1个（需要货币） -->
+        <Row>
+			<ModifierId>WS_AB_SPY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_SPY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WS_AB_SPY_ADD_REQ_TECH_CURRENCY</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>
