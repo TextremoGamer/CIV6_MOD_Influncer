@@ -1,0 +1,86 @@
+<!-- <GameInfo>
+    <Modifiers>
+        <!-- 定义一个让特定文明在满足条件时获得 2 个大将军的 Modifier -->
+        <Row>
+            <ModifierId>SIMON_BOLIVAR_GRANT_TWO_GENERALS</ModifierId>
+            <ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+            <SubjectRequirementSetId>SIMON_BOLIVAR_HAS_BRONZE_WORKING_REQSET</SubjectRequirementSetId>
+            <RunOnce>true</RunOnce>
+            <Permanent>true</Permanent>
+        </Row>
+        <Row>
+			<ModifierId>TRAIT_LEADER_COMANDANTE_GENERAL_GUARANTEE_ANCIENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_GUARANTEE</ModifierType>
+		</Row>
+    </Modifiers>
+    
+    <!-- 参数配置：指定是大将军，数量为 2 -->
+    <ModifierArguments>
+        <Row>
+            <ModifierId>SIMON_BOLIVAR_GRANT_TWO_GENERALS</ModifierId>
+            <Name>GreatPersonClassType</Name>
+            <Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+        </Row>
+        <Row>
+            <ModifierId>SIMON_BOLIVAR_GRANT_TWO_GENERALS</ModifierId>
+            <Name>Amount</Name>
+            <Value>1</Value>
+        </Row>
+        <Row>
+			<ModifierId>TRAIT_LEADER_COMANDANTE_GENERAL_GUARANTEE_ANCIENT</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_COMANDANTE_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LEADER_COMANDANTE_GENERAL_GUARANTEE_ANCIENT</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+    </ModifierArguments>
+
+
+    <!-- 1. 绑定需求集 -->
+    <RequirementSets>
+        <Row>
+            <RequirementSetId>SIMON_BOLIVAR_HAS_BRONZE_WORKING_REQSET</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+    </RequirementSets>
+
+    <RequirementSetRequirements>
+        <!-- 条件B：玩家已拥有青铜冶炼科技 -->
+        <Row>
+            <RequirementSetId>SIMON_BOLIVAR_HAS_BRONZE_WORKING_REQSET</RequirementSetId>
+            <RequirementId>REQUIRES_TECH_BRONZE_WORKING_MET</RequirementId>
+        </Row>
+    </RequirementSetRequirements>
+
+
+    <!-- 2. 具体需求底层逻辑 -->
+    <Requirements>
+        <Row>
+            <RequirementId>REQUIRES_TECH_BRONZE_WORKING_MET</RequirementId>
+            <RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+        </Row>
+    </Requirements>
+
+    <RequirementArguments>
+        <!-- 科技达成参数 -->
+        <Row>
+            <RequirementId>REQUIRES_TECH_BRONZE_WORKING_MET</RequirementId>
+            <Name>TechType</Name>
+            <Value>TECH_BRONZE_WORKING</Value>
+        </Row>
+    </RequirementArguments>
+
+
+    <TraitModifiers>
+        <!-- 假设西蒙·玻利瓦尔的领袖特性是 TRAIT_LEADER_SIMON_BOLIVAR （请根据实际 Leaders.xml 中的定义调整） -->
+        <Row>
+            <TraitType>TRAIT_LEADER_CAMPANA_ADMIRABLE</TraitType>
+            <ModifierId>SIMON_BOLIVAR_GRANT_TWO_GENERALS</ModifierId>
+        </Row>
+
+        <Row TraitType="TRAIT_LEADER_CAMPANA_ADMIRABLE" ModifierId="TRAIT_LEADER_COMANDANTE_GENERAL_GUARANTEE_ANCIENT"/>
+    </TraitModifiers>
+</GameInfo> -->

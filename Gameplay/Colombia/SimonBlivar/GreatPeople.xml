@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <!-- 1. 彻底删除这 9 个总指挥个体 -->
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MACGREGOR'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_PIAR'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_NARINO'" />
+    <Delete From="GreatPersonIndividuals" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA'" />
+
+    <!-- 2. 同步清理这 9 个人在出生时绑定的效果，防止引擎调用空指针 -->
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MACGREGOR'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_NARINO'" />
+    <Delete From="GreatPersonIndividualBirthModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA'" />
+
+    <!-- 3. 同步清理这 9 个人的退场/激活技能修饰器 -->
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_JOSE_DE_SUCRE'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PAULA_SANTANDER'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_ANTONIO_PAEZ'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_URDANETA'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MARINO'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MACGREGOR'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_PIAR'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_NARINO'" />
+    <Delete From="GreatPersonIndividualActionModifiers" Where="GreatPersonIndividualType='GREAT_PERSON_INDIVIDUAL_COMMANDANTE_MONTILLA'" />
+</GameInfo>

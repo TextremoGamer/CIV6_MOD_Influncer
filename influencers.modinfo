@@ -27,15 +27,9 @@
 	</References>
 	<!-- 替换条件 -->
 	<ActionCriteria>
-		<Criteria id="Expansion1">
-			<RuleSet>RULESET_EXPANSION_1</RuleSet>
-		</Criteria>
 		<Criteria id="Expansion2">
-			<RuleSet>RULESET_EXPANSION_2</RuleSet>
-		</Criteria>
-		<Criteria id="Vanilla">
-			<RuleSet>RULESET_STANDARD</RuleSet>
-		</Criteria>
+    		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+    	</Criteria>
 
 		<!-- <Criteria id="Expansion2">
 			<GameCoreInUse>Expansion2</GameCoreInUse>
@@ -111,6 +105,14 @@
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
 
+		<!-- 大哥伦比亚 -->
+		<!-- <UpdateDatabase id="WSInfluencerColombiaDB">
+			<File>Gameplay/Colombia/GreatPeople.xml</File>
+    	</UpdateDatabase>
+		<AddGameplayScripts id="WSInfluencerColombiaLua">
+			<File>Gameplay/Colombia/ability.lua</File>
+		</AddGameplayScripts> -->
+
 
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
@@ -179,6 +181,10 @@
 		<File>Gameplay/China/ability_slavery.xml</File>
 		<File>Gameplay/China/ability.xml</File>
 		<File>Gameplay/China/text.xml</File>
+
+		<!-- 大哥伦比亚 -->
+		<!-- <File>Gameplay/Colombia/GreatPeople.xml</File>
+		<File>Gameplay/Colombia/ability.lua</File> -->
 
 		<File>Data/RequirementSets.xml</File>
 		<File>Data/requirements.xml</File>
