@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+		<!-- 文物+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_ARTIFACT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 风景画+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_LANDSCAPE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 音乐+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_MUSIC_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 肖像+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_PORTRAIT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 遗物+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIC_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 宗教艺术+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIGIOUS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 雕塑+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_SCULPTURE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<!-- 著作+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_WRITING_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+		<!-- 文物+2食物  -->
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_ARTIFACT_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_ARTIFACT</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_ARTIFACT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_ARTIFACT_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 风景画加2食物  -->
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_LANDSCAPE_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_LANDSCAPE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_LANDSCAPE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_LANDSCAPE_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!--音乐+2食物   -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_MUSIC_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_MUSIC_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_MUSIC_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 肖像+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_PORTRAIT_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_PORTRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_PORTRAIT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_PORTRAIT_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 遗物+2食物 -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIC_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIC_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIC_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 宗教艺术+2食物 -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIGIOUS_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIGIOUS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_RELIGIOUS_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 雕塑+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_SCULPTURE_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_SCULPTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_SCULPTURE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_SCULPTURE_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- 著作+2食物  -->
+        <Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_WRITING_FOOD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_WRITING_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_TRAIT_CIV_CHINA_SLAVERY_GREATWORKBONUS_WRITING_FOOD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+    </ModifierArguments>
+</GameInfo>

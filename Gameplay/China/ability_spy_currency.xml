@@ -5,7 +5,7 @@
         <Row>
 			<ModifierId>WS_AB_SPY_CAPACITY_ADD_REQ_TECH_CURRENCY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPY</ModifierType>
-			<OwnerRequirementsetId>WS_REQSET_TECH_CURRENCY</OwnerRequirementsetId>
+			<OwnerRequirementsetId>INF_AB_SPY_CURRENCY_REQSET</OwnerRequirementsetId>
 		</Row>
         <!-- 获得间谍 - 获得1个（需要货币） -->
         <Row>
@@ -13,7 +13,7 @@
 			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
-			<OwnerRequirementsetId>WS_REQSET_TECH_CURRENCY</OwnerRequirementsetId>
+			<OwnerRequirementsetId>INF_AB_SPY_CURRENCY_REQSET</OwnerRequirementsetId>
 		</Row>
     </Modifiers>
     <ModifierArguments>
@@ -40,4 +40,33 @@
 			<Value>false</Value>
 		</Row>
     </ModifierArguments>
+
+
+	<!-- 货币需求 -->
+	<RequirementSets>
+		<Row>
+            <RequirementSetId>INF_AB_SPY_CURRENCY_REQSET</RequirementSetId>
+            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+        </Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+            <RequirementSetId>INF_AB_SPY_CURRENCY_REQSET</RequirementSetId>
+            <RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
+        </Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- TECH -->
+		<Row>
+			<RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+            <RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_CURRENCY</Value>
+        </Row>
+	</RequirementArguments>
 </GameInfo>

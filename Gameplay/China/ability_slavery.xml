@@ -10,6 +10,12 @@
 			<ModifierId>WS_CHINA_BUILDER_WONDER_PERCENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
 		</Row>
+		<!-- 宫殿6个槽位 -->
+		<Row>
+			<ModifierId>INF_CIVTRAIT_CHIN_PALACE_SIX_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+
     </Modifiers>
     <ModifierArguments>
         <!-- 工人推进区域和奇观25%的进度 -->
@@ -22,6 +28,22 @@
 			<ModifierId>WS_CHINA_BUILDER_WONDER_PERCENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>25</Value>
+		</Row>
+		<!-- 宫殿6个槽位 -->
+		<Row>
+			<ModifierId>INF_CIVTRAIT_CHIN_PALACE_SIX_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_CIVTRAIT_CHIN_PALACE_SIX_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>INF_CIVTRAIT_CHIN_PALACE_SIX_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
 		</Row>
     </ModifierArguments>
 </GameInfo>
