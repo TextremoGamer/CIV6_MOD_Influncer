@@ -114,7 +114,6 @@
 			<File>Gameplay/Colombia/ability.lua</File>
 		</AddGameplayScripts> -->
 
-
 		<UpdateDatabase id="WSInfluencerLeaders">
 			<File>Data/leader_qin_alt.xml</File>
 		</UpdateDatabase>
@@ -152,14 +151,6 @@
 			<File Priority="1">Text/china/qin_alt_hero.xml</File>
     	</UpdateText> -->
 	</InGameActions>
-
-	<LocalizedText>
-		<Text id="LOC_MOD_NAME">
-			<en_US>[COLOR_RED]The Influencers[ENDCOLOR]</en_US>
-			<zh_Hans_CN>[COLOR_RED]风云人物包[ENDCOLOR]</zh_Hans_CN>
-		</Text>
-	</LocalizedText>
-
 
 	<Files>
 		<!-- Mod本身介绍 -->

@@ -42,31 +42,20 @@
     </ModifierArguments>
 
 
-	<!-- 货币需求 -->
+	<!-- 触发条件 -->
 	<RequirementSets>
-		<Row>
-            <RequirementSetId>INF_AB_SPY_CURRENCY_REQSET</RequirementSetId>
-            <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-        </Row>
+		<!-- 货币需求 -->
+		<Row RequirementSetId="INF_AB_SPY_CURRENCY_REQSET" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 	</RequirementSets>
 	<RequirementSetRequirements>
-		<Row>
-            <RequirementSetId>INF_AB_SPY_CURRENCY_REQSET</RequirementSetId>
-            <RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
-        </Row>
+		<!-- 货币需求 -->
+		<Row RequirementSetId="INF_AB_SPY_CURRENCY_REQSET" RequirementId="INF_AB_SPY_CURRENCY_REQ" />
 	</RequirementSetRequirements>
 	<Requirements>
-		<!-- TECH -->
-		<Row>
-			<RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-		</Row>
+		<!-- 货币需求 -->
+		<Row RequirementId="INF_AB_SPY_CURRENCY_REQ" RequirementType="REQUIREMENT_PLAYER_HAS_TECHNOLOGY" />
 	</Requirements>
 	<RequirementArguments>
-		<Row>
-            <RequirementId>INF_AB_SPY_CURRENCY_REQ</RequirementId>
-            <Name>TechnologyType</Name>
-            <Value>TECH_CURRENCY</Value>
-        </Row>
+		<Row RequirementId="INF_AB_SPY_CURRENCY_REQ" Name="TechnologyType" Value="TECH_CURRENCY" />
 	</RequirementArguments>
 </GameInfo>
