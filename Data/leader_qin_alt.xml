@@ -98,22 +98,6 @@
 			<ModifierId>TRAIT_LEADER_PILLAGE_CULTURE_CAMPS</ModifierId>
 		</Row> -->
 		<!-- 愚民奴役 -->
-		<Row>
-			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>WS_AB_CITY_DECREASE_SCIENCE_50</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>WS_AB_CITY_DECREASE_CULTURE_50</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
-		</Row>
 		<!-- 愚民奴役 - 信仰买兵 -->
 		<Row>
 			<TraitType>TRAIT_FOOLISH_SLAVERY</TraitType>
@@ -166,131 +150,7 @@
 		<!-- 大兴土木 -->
 		<Row>
 			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
-		</Row>
-		<!-- <Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_MUSIC_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIC_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_PROD_ADD_01</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_WRITING_PROD_ADD_01</ModifierId>
-		</Row> -->
-
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_MUSIC_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIC_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_FOOD_ADD_04</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_WRITING_FOOD_ADD_04</ModifierId>
-		</Row>
-
-		<!-- 巨作加金币 -->
-		<!-- <Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_ARTIFACT_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_LANDSCAPE_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_MUSIC_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_PORTRAIT_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIC_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_RELIGIOUS_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_SCULPTURE_GOLD_ADD_05</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_GREAT_WORK_WRITING_GOLD_ADD_05</ModifierId>
-		</Row> -->
-
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_SCI_GRANT_ASTROLOGY</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>WS_AB_SCI_GRANT_SHIPBUILDING</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
 			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILENG</TraitType>
-			<ModifierId>TRAIT_CIVILENG_TRADING_POSTS</ModifierId>
 		</Row>
 		<!-- 霸权主义 -->
 		<!-- 霸权主义 —— 城邦-->
@@ -338,30 +198,9 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		
-		<!-- 愚民奴役 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_WONDER_PERCENT</ModifierType>
-		</Row>
 		<!-- 大兴土木 -->
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
-		</Row>
 		
 		
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_ROADS_TO_CAPITAL</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_ROAD_TO_CAPITAL</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_CIVILENG_TRADING_POSTS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_TRADING_POST</ModifierType>
-		</Row>
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_IMPROVED_ROUTE_LEVEL</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL</ModifierType>
@@ -384,18 +223,6 @@
 			<Value>CAPTURE_COMBAT_UNITS_AS_WORKERS</Value>
 		</Row>
 		
-		<!-- 工人推进区域25%进度 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_DISTRICT_PERCENT</ModifierId>
-			<Name>Amount</Name>
-			<Value>25</Value>
-		</Row>
-		<!-- 工人推进远古、古典奇观25%进度 -->
-		<Row>
-			<ModifierId>TRAIT_FOOLISH_SLAVERY_BUILDER_WONDER_PERCENT</ModifierId>
-			<Name>Amount</Name>
-			<Value>25</Value>
-		</Row>
 		<!-- 大兴土木 -->
 		<Row>
 			<ModifierId>TRAIT_CIVILENG_EXTRA_PALACE_SLOTS</ModifierId>

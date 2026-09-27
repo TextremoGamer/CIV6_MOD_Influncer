@@ -15,7 +15,12 @@
 			<ModifierId>INF_CIVTRAIT_CHIN_PALACE_SIX_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row>
-
+		<!-- 解锁占星术、造船术 -->
+        <Row ModifierId="INF_TRAIT_CIV_CHINA_SCI_GRANT_ASTROLOGY"    ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />
+        <Row ModifierId="INF_TRAIT_CIV_CHINA_SCI_GRANT_SHIPBUILDING" ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />
+		<!-- 每个城市获得通往首都的道路、自动获得一个贸易站 -->
+		<Row ModifierId="INF_TRAIT_CIV_CHINA_CITY_ROAD_TO_CAPITAL"           ModifierType="MODIFIER_PLAYER_CITIES_GRANT_ROAD_TO_CAPITAL"/>
+		<Row ModifierId="INF_TRAIT_CIV_CHINA_CITY_AUTO_BUILD_TRADINGPOSTS"   ModifierType="MODIFIER_PLAYER_CITIES_GRANT_TRADING_POST"   />
     </Modifiers>
     <ModifierArguments>
         <!-- 工人推进区域和奇观25%的进度 -->
@@ -45,5 +50,8 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
+		<!-- 解锁占星术、造船术 -->
+		<Row ModifierId="INF_TRAIT_CIV_CHINA_SCI_GRANT_ASTROLOGY"    Name="TechType" Value="TECH_ASTROLOGY"    />
+		<Row ModifierId="INF_TRAIT_CIV_CHINA_SCI_GRANT_SHIPBUILDING" Name="TechType" Value="TECH_SHIPBUILDING" />
     </ModifierArguments>
 </GameInfo>

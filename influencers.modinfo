@@ -72,13 +72,6 @@
         <UpdateDatabase id="WSInfluencerAztecMontezumaSQL">
             <File>Gameplay/Aztec/Montezuma/CombatBonus.sql</File>
         </UpdateDatabase>
-		<!-- <AddUserInterfaces id="WSInfluencerAztecMontezumaLua">
-			<Properties>
-				<Context>InGame</Context>
-				<LoadOrder>1000</LoadOrder>
-			</Properties>
-			<File>Gameplay/Aztec/Montezuma/LuxuryCounter.lua</File>
-		</AddUserInterfaces> -->
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
     	</UpdateText>
@@ -114,9 +107,6 @@
 			<File>Gameplay/Colombia/ability.lua</File>
 		</AddGameplayScripts> -->
 
-		<UpdateDatabase id="WSInfluencerLeaders">
-			<File>Data/leader_qin_alt.xml</File>
-		</UpdateDatabase>
 		<UpdateDatabase id="WSInfluencerCore">
 			<File>Data/RequirementSets.xml</File>
 			<File>Data/requirements.xml</File>
@@ -203,7 +193,7 @@
 		<File>Data/Abilities/slots.xml</File>
 		<File>Data/Abilities/spy.xml</File>
 		<File>Data/Abilities/random_event_imune.xml</File>
-		<File>Data/leader_qin_alt.xml</File>
+		<!-- <File>Data/leader_qin_alt.xml</File> -->
 		<File>Data/ConfigData.xml</File>
 		<File>Config/config_leader_qin_alt.xml</File>
 
