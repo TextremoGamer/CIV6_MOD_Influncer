@@ -60,6 +60,10 @@
 			<File>Gameplay/Babylon/text.xml</File>
     	</UpdateText>
 
+		<UpdateText id="INF_TXT_BYZANTIUM">
+			<File>Gameplay/Byzantium/Text.xml</File>
+    	</UpdateText>
+
 		<!-- 中国 -->
 		<UpdateText id="WSFEChinaText">
 			<File>Gameplay/China/text.xml</File>
@@ -82,6 +86,14 @@
         </UpdateDatabase>
 		<UpdateText id="WSInfluencerBabylonText">
 			<File>Gameplay/Babylon/text.xml</File>
+    	</UpdateText>
+
+		<!-- 拜占庭 -->
+		<UpdateDatabase id="INF_DB_BYZANTIUM">
+            <File>Gameplay/Byzantium/Ability.xml</File>
+        </UpdateDatabase>
+		<UpdateText id="INF_TXT_BYZANTIUM">
+			<File>Gameplay/Byzantium/Text.xml</File>
     	</UpdateText>
 
 		<!-- 中国 -->
@@ -157,6 +169,10 @@
 		<File>Gameplay/Babylon/ability.xml</File>
 		<File>Gameplay/Babylon/text.xml</File>
 
+		<!-- 拜占庭 -->
+		<File>Gameplay/Byzantium/Ability.xml</File>
+		<File>Gameplay/Byzantium/Text.xml</File>
+		
 		<!-- 中国 -->
 		<File>Gameplay/China/ability_collectivism_unit.xml</File>
 		<File>Gameplay/China/ability_collectivism.xml</File>

@@ -1,0 +1,29 @@
+<!--
+拜占庭的文明能力文件 DLC\Byzantium_Gaul\Data\Byzantium_Gaul_Civilizations.xml
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 解锁占星术、造船术 -->
+        <Row ModifierId="INF_TRAIT_CIV_BYZANTIUM_SCI_GRANT_ASTROLOGY"    ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="INF_TRAIT_CIV_BYZANTIUM_SCI_GRANT_ASTROLOGY"    Name="TechType" Value="TECH_ASTROLOGY"    />
+        <!-- 修改普通战斗力 -->
+        <Update>
+            <Where ModifierId="BYZANTIUM_COMBAT_HOLY_CITIES" Name="Amount" />
+            <Set Value="8" />
+        </Update>
+        <!-- 修改宗教战斗力 -->
+        <Update>
+            <Where ModifierId="BYZANTIUM_RELIGIOUS_COMBAT_HOLY_CITIES" Name="Amount" />
+            <Set Value="8" />
+        </Update>
+    </ModifierArguments>
+
+    <TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" ModifierId="INF_TRAIT_CIV_BYZANTIUM_SCI_GRANT_ASTROLOGY" />
+    </TraitModifiers>
+
+
+</GameInfo>
