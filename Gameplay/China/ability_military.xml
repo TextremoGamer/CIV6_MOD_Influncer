@@ -9,5 +9,4 @@
     <ModifierArguments>
 		<Row ModifierId="INF_CHINA_AB_REGLIONSPREAD" Name="ModifierId" Value="INF_CHINA_UNIT_AB_LAND_VICTORY_SPREAD" />
     </ModifierArguments>
-
 </GameInfo>

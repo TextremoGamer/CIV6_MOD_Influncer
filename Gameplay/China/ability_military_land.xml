@@ -1,32 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <GameInfo>
-    <Modifiers>
-        <!-- 陆军杀人传教 -->
-		<Row ModifierId="INF_CHINA_AB_LAND_REGLIONSPREAD" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" />
-			<!-- <SubjectRequirementSetId>TRAIT_MILITANCY_REQ_LAND</SubjectRequirementSetId> -->
-		
-    </Modifiers>
-    <ModifierArguments>
-		<Row ModifierId="INF_CHINA_AB_LAND_REGLIONSPREAD" Name="ModifierId" Value="INF_CHINA_UNIT_AB_LAND_VICTORY_SPREAD" />
-    </ModifierArguments>
-
-
-    <!-- 陆地部队判断 -->
-    <RequirementSets>
+  <!-- 陆地部队判断 -->
+  <RequirementSets>
 		<Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementSetType="REQUIREMENTSET_TEST_ANY" />
 	</RequirementSets>
-	<RequirementSetRequirements>
+  <RequirementSetRequirements>
 		<Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_RECON" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_MELEE" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_SIEGE" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CAVALRY" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CAVALRY" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED_CAVALRY" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_ANTI_CAVALRY" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CHARIOT" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CHARIOT" />
-        <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK" />		
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_MELEE" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_SIEGE" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CAVALRY" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CAVALRY" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_RANGED_CAVALRY" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_ANTI_CAVALRY" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_HEAVY_CHARIOT" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_CLASS_LIGHT_CHARIOT" />
+    <Row RequirementSetId="INF_CHINA_REQSET_LAND" RequirementId="TRAIT_MILITANCY_REQ_LAND_WARRIOR_MONK" />		
 	</RequirementSetRequirements>
-
 </GameInfo>
