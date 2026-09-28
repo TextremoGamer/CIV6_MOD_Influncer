@@ -4,9 +4,11 @@
         <!-- 杀人传教 -->
 		<Row ModifierId="INF_CHINA_AB_REGLIONSPREAD" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" />
 			<!-- <SubjectRequirementSetId>TRAIT_MILITANCY_REQ_LAND</SubjectRequirementSetId> -->
-		
+       
+		<Row ModifierId="INF_CHINA_AB_CAPTURE_COMBAT_UNITS_AS_WORKERS" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" />          <!-- 战斗胜利可以捕获为工人 -->
     </Modifiers>
     <ModifierArguments>
 		<Row ModifierId="INF_CHINA_AB_REGLIONSPREAD" Name="ModifierId" Value="INF_CHINA_UNIT_AB_LAND_VICTORY_SPREAD" />
+		<Row ModifierId="INF_CHINA_AB_CAPTURE_COMBAT_UNITS_AS_WORKERS" Name="ModifierId" Value="CAPTURE_COMBAT_UNITS_AS_WORKERS" />     <!-- 战斗胜利可以捕获为工人 -->
     </ModifierArguments>
 </GameInfo>

@@ -3,6 +3,7 @@
     <TraitModifiers>
 		<!-- military -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_CHINA_AB_REGLIONSPREAD" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_CHINA_AB_CAPTURE_COMBAT_UNITS_AS_WORKERS" />
 		<!-- collectivism -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_AB_CIV_CHINA_COLLECTIVISM_RECRUIT_BARBS" />
 		<!-- spy -->
