@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <TraitModifiers>
+		<!-- military -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_CHINA_AB_LAND_REGLIONSPREAD" />
 		<!-- collectivism -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="WS_AB_CIV_CHINA_COLLECTIVISM_RECRUIT_BARBS" />
 		<!-- spy -->

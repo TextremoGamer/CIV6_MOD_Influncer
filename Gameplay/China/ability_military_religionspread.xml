@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 陆军击杀传教 -->
+        <Row ModifierId="INF_CHINA_UNIT_AB_LAND_VICTORY_SPREAD" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_LAND_VICTORY_SPREAD" />
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="INF_CHINA_UNIT_AB_LAND_VICTORY_SPREAD" Name="Name" Value="true" />
+    </ModifierArguments>
+</GameInfo>
