@@ -29,12 +29,6 @@
 			<ModifierId>WS_AB_UNITS_KILL_BONUS_GOLD_PER_050</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
 		</Row>
-        <!-- 杀人加文化 -->
-        <!-- 杀人加文化 - 25%战斗力 -->
-		<Row>
-			<ModifierId>WS_AB_UNITS_KILL_BONUS_CULTURE_PER_025</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
-		</Row>
         <!-- 杀人加信仰 -->
         <!-- 杀人加信仰 - 100% -->
 		<Row>
@@ -89,18 +83,7 @@
 			<Name>PercentDefeatedStrength</Name>
 			<Value>50</Value>
 		</Row>
-		<!-- 杀人加文化 -->
-        <!-- 杀人加文化 - 25%战斗力 -->
-		<Row>
-			<ModifierId>WS_AB_UNITS_KILL_BONUS_CULTURE_PER_025</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>WS_AB_UNITS_KILL_BONUS_CULTURE_PER_025</ModifierId>
-			<Name>PercentDefeatedStrength</Name>
-			<Value>25</Value>
-		</Row>
+		
 		<!-- 杀人加信仰 -->
         <!-- 杀人加信仰 - 100% -->
 		<Row>

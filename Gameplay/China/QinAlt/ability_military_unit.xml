@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 杀死敌人产生大将军点数 -->
+		<Row ModifierId="INF_CHINA_QINALT_UNIT_AB_KILL_LAND_BONUS_GREAT_GENERAL_POINTS" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" />
+    </Modifiers>
+	
+    <ModifierArguments>
+        <Row ModifierId="INF_CHINA_QINALT_UNIT_AB_KILL_LAND_BONUS_GREAT_GENERAL_POINTS"     Name="PercentDefeatedStrength"      Value="50" />
+        <Row ModifierId="INF_CHINA_QINALT_UNIT_AB_KILL_LAND_BONUS_GREAT_GENERAL_POINTS"     Name="GreatPersonClassType"         Value="GREAT_PERSON_CLASS_GENERAL" />
+    </ModifierArguments>
+
+
+</GameInfo>

@@ -15,21 +15,6 @@
 		<!-- <Row TraitType="TRAIT_CHOSEN_ONE" Name="LOC_TRAIT_CHOSEN_ONE_NAME" Description="LOC_TRAIT_CHOSEN_ONE_DESCRIPTION"/> -->
 	</Traits>
 	<TraitModifiers>
-		<!-- 穷兵黩武 -->
-		<!-- 穷兵黩武——移速 -->
-		<!-- <Row>
-			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>WS_AB_UNITS_MOVEMENT_ADD_02</ModifierId>
-		</Row> -->
-		<!-- 穷兵黩武——加力 -->
-		<!-- <Row>
-			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>WS_AB_UNITS_ATTACK_LUXURY_ADD_01</ModifierId>
-		</Row> -->
-		<!-- <Row>
-			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>WS_AB_UNITS_ATTACK_OTHER_RELIGION_ADD_05</ModifierId>
-		</Row> -->
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_ATTACK_HOLY_CITIES_ADD_03</ModifierId>
@@ -42,12 +27,6 @@
 		<Row>
 			<TraitType>TRAIT_MILITANCY</TraitType>
 			<ModifierId>WS_AB_UNITS_CONQUE_CITY_UPGRADE_MILITARY_FORMATION</ModifierId>
-		</Row>
-
-		<!-- 穷兵黩武——抓工人 -->
-		<Row>
-			<TraitType>TRAIT_MILITANCY</TraitType>
-			<ModifierId>TRAIT_MILITANCY_CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
 		</Row>
 		<!-- 穷兵黩武——杀人+大将军和海军点数 -->
 		<Row>

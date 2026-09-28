@@ -68,6 +68,10 @@
 		<UpdateText id="WSFEChinaText">
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
+		<!-- 中国/武秦 -->
+		<UpdateText id="INF_FE_TXT_CHINA_QINALT">
+			<File>Gameplay/China/QinAlt/Text.xml</File>
+    	</UpdateText>
 	</FrontEndActions>
 
 	<!-- 游戏中 -->
@@ -113,6 +117,15 @@
 		<UpdateText id="WSInfluencerChinaText">
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
+		<!-- 中国/武秦 -->
+		<UpdateDatabase id="INF_DB_CHINA_QINALT">
+			<File>Gameplay/China/QinAlt/ability_military_unit.xml</File>
+			<File>Gameplay/China/QinAlt/ability_military.xml</File>
+			<File>Gameplay/China/QinAlt/Ability.xml</File>
+		</UpdateDatabase>
+		<UpdateText id="INF_TXT_CHINA_QINALT">
+			<File>Gameplay/China/QinAlt/Text.xml</File>
+    	</UpdateText>
 
 		<!-- 大哥伦比亚 -->
 		<!-- <UpdateDatabase id="WSInfluencerColombiaDB">
@@ -148,13 +161,6 @@
 			<File>Data/Abilities/spy.xml</File>
 			<File>Data/Abilities/random_event_imune.xml</File>
 		</UpdateDatabase>
-		<UpdateText id="WSInfluencerText">
-			<File>Text/china/qin_alt.xml</File>
-			<File>Text/ab_heros.xml</File>
-    	</UpdateText>
-		<!-- <UpdateText id="WSInfluencerText_Hero" Criteria="HeroesMode_Active">
-			<File Priority="1">Text/china/qin_alt_hero.xml</File>
-    	</UpdateText> -->
 	</InGameActions>
 
 	<Files>
@@ -186,6 +192,11 @@
 		<File>Gameplay/China/ability_slavery.xml</File>
 		<File>Gameplay/China/ability.xml</File>
 		<File>Gameplay/China/text.xml</File>
+		<!-- 中国/武秦 -->
+		<File>Gameplay/China/QinAlt/ability_military_unit.xml</File>
+		<File>Gameplay/China/QinAlt/ability_military.xml</File>
+		<File>Gameplay/China/QinAlt/Ability.xml</File>
+		<File>Gameplay/China/QinAlt/Text.xml</File>
 
 		<!-- 大哥伦比亚 -->
 		<!-- <File>Gameplay/Colombia/GreatPeople.xml</File>
