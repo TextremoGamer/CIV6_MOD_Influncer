@@ -1,10 +1,12 @@
-<!--
-武秦德能力来自 DLC\RulersOfChina\Data\RulersOfChina_Leaders.xml
--->
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
+    <ModifierArguments>
+        <!-- 旃陀罗笈多（详见DLC\Expansion1\Data\Expansion1_Leaders_Major.xml, DLC\Expansion1\Data\Expansion1_Leaders.xml） -->
+        <Update><Where ModifierId="TRAIT_TERRITORIAL_WAR_PREREQ_OVERRIDE" Name="CivicType"/><Set Value="CIVIC_CODE_OF_LAWS" /></Update>
+    </ModifierArguments>
+
     <TraitModifiers>
-        <!-- QinAlt -->
+        <!-- QinAlt (see DLC\RulersOfChina\Data\RulersOfChina_Leaders.xml) -->
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02" />
