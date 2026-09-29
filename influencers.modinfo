@@ -30,17 +30,13 @@
 		<Criteria id="Expansion2">
     		<RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
     	</Criteria>
-
-		<!-- <Criteria id="Expansion2">
-			<GameCoreInUse>Expansion2</GameCoreInUse>
-		</Criteria>
-		<Criteria Id="HeroesMode_Active">
+		<Criteria id="HERO_MODE">
 			<ConfigurationValueMatches>
 				<Group>Game</Group>
 				<ConfigurationId>GAMEMODE_HEROES</ConfigurationId>
 				<Value>1</Value>
 			</ConfigurationValueMatches>
-		</Criteria> -->
+		</Criteria>
 	</ActionCriteria>
 
 	<!-- 选人界面 -->
@@ -105,6 +101,9 @@
 			<File>Gameplay/civilizations.xml</File>
 			<File>Gameplay/leaders.xml</File>
 		</UpdateDatabase>
+		<UpdateDatabase id="INF_DB_HERO_MODE" criteria="HERO_MODE">
+			<File>Gameplay/civilizations_hero_mode.xml</File>
+		</UpdateDatabase>
 		<UpdateText id="INF_TXT">
 			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
@@ -155,7 +154,7 @@
 
 		<!-- Mod本身介绍 -->
 		<File>description.xml</File>
-
+		<File>Gameplay/civilizations_hero_mode.xml</File>
 		<File>Gameplay/civilizations.xml</File>
 		<File>Gameplay/leaders.xml</File>
 		<!-- 文本更新 -->

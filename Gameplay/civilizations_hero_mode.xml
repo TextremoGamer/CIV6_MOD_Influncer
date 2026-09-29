@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02"/>
+	</TraitModifiers>
+</GameInfo>

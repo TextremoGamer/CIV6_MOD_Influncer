@@ -23,6 +23,8 @@
         <Row ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" ModifierType="MODIFIER_PLAYER_GRANT_SPY"             OwnerRequirementsetId="INF_REQSET_TECH_CURRENCY" />                                   <!-- 提升间谍容量：1个（需要货币） -->
         <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" ModifierType="MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL" OwnerRequirementsetId="INF_REQSET_TECH_CURRENCY" RunOnce="true" Permanent="true" />   <!-- 获得间谍：1个（需要货币） -->
         <Row ModifierId="INF_SPY_PROMOTION_UNLIMITED" ModifierType="MODIFIER_PLAYER_UNIT_GRANT_UNLIMITED_PROMOTION_CHOICES" />                                                                            <!-- 间谍可以选择任何可用升级（见DLC\Expansion2\Data\Expansion2_Policies.xml） -->
+        <!-- 巨作额外效果 -->
+        <Row ModifierID="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02"	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD"/>      <!-- 英雄遗物/食物/+2 -->
     </Modifiers>
     <ModifierArguments>
         <!-- 单位击杀额外获取 -->
@@ -60,5 +62,9 @@
         <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="Amount"                    Value="1" />
         <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="AllowUniqueOverride"       Value="false" />
         <Row ModifierId="INF_SPY_PROMOTION_UNLIMITED"          Name="UnitType"                  Value="UNIT_SPY"/>
+        <!-- 巨作额外效果 -->
+        <Row ModifierId="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02" Name="GreatWorkObjectType" Value="GREATWORKOBJECT_HERO"/>
+		<Row ModifierId="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02" Name="YieldType"           Value="YIELD_FOOD"/>
+		<Row ModifierId="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02" Name="YieldChange"         Value="2"/>
     </ModifierArguments>
 </GameInfo>
