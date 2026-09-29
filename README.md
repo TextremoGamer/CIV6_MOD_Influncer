@@ -40,7 +40,7 @@
 * `DLC\Expansion2\Data\Expansion2_Civilizations.xml`: 搜索`TRAIT_AVOID_MODERATE_FLOOD`可以免疫天灾
 
 ### 代码实例
-* 厌战情绪
+* 厌战情绪<br>
     亚历山大城市不会产生厌战情绪（DLC\Macedonia_Persia\Data\Macedonia_Persia_GameplayData.xml）
     ```sh
     <Modifiers>
