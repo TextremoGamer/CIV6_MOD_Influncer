@@ -12,6 +12,8 @@
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                          ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布突袭战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"             ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布领土扩张战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                              ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 被宣战+2移速 -->
+        <!-- 厌战情绪 -->
+        <Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02"                            ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS" />                              <!-- 交战时获得双倍厌战情绪 -->
         <!-- 军事槽相关能力 -->
         <Row ModifierId="INF_AB_SLOT_MILI_ADD_01"                                       ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" />          <!-- 加军事槽 -->
         <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"                                 ModifierType="MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR"  />          <!-- 军事槽+5外交支持 -->
@@ -40,6 +42,9 @@
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="DiplomaticYieldSource"    Value="WAR_DECLARATION_RECEIVED" />
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="TurnsActive"              Value="10" />
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="Amount"                   Value="2" />
+        <!-- 厌战情绪 -->
+        <Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" Name="Amount"  Value="100" />
+		<Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" Name="Overall" Value="true" />
         <!-- 军事槽相关能力 -->
         <Row ModifierId="INF_AB_SLOT_MILI_ADD_01"           Name="AbilityType"          Value="ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS" />
 		<Row ModifierId="INF_AB_SLOT_MILI_ADD_01"           Name="GovernmentSlotType"   Value="SLOT_MILITARY" />
