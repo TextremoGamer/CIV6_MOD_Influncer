@@ -2,7 +2,7 @@
 <GameInfo>
     <TraitModifiers>
         <!-- China -->
-		<!-- <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_AB_SPY_TECH_CURRENCY_CAP_ADD_01" />
-        <Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_AB_SPY_TECH_CURRENCY_NUM_ADD_01" /> -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" />
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" />
 	</TraitModifiers>  
 </GameInfo>
