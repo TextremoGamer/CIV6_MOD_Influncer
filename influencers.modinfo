@@ -119,7 +119,8 @@
 			<File>Gameplay/China/ability_slavery_greatwork_bonus.xml</File>
 			<File>Gameplay/China/ability_slavery.xml</File>
 			<File>Gameplay/China/ability.xml</File>
-			<!-- 领袖 -->
+			
+			<File>Gameplay/civilizations.xml</File>
 			<File>Gameplay/leaders.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="INF_TXT">
@@ -177,7 +178,7 @@
 		<!-- Mod本身介绍 -->
 		<File>description.xml</File>
 
-		<!-- 领袖 -->
+		<File>Gameplay/civilizations.xml</File>
 		<File>Gameplay/leaders.xml</File>
 		<!-- 文本更新 -->
 		<File>text/leaders.xml</File>
