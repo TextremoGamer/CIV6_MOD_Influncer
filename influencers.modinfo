@@ -111,7 +111,6 @@
 			<!-- 文明/中国 -->
 			<File>Gameplay/China/ability_collectivism_unit.xml</File>
 			<File>Gameplay/China/ability_collectivism.xml</File>
-			<File>Gameplay/China/ability_spy_currency.xml</File>
 			<File>Gameplay/China/ability_foolish.xml</File>
 			<File>Gameplay/China/ability_military_religionspread.xml</File>
 			<File>Gameplay/China/ability_military.xml</File>
@@ -198,7 +197,6 @@
 		<!-- 中国 -->
 		<File>Gameplay/China/ability_collectivism_unit.xml</File>
 		<File>Gameplay/China/ability_collectivism.xml</File>
-		<File>Gameplay/China/ability_spy_currency.xml</File>
 		<File>Gameplay/China/ability_foolish.xml</File>
 		<File>Gameplay/China/ability_military_religionspread.xml</File>
 		<File>Gameplay/China/ability_military.xml</File>
