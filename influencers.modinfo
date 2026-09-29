@@ -50,6 +50,11 @@
     		<File>description.xml</File>
   		</UpdateText>
 
+		<!-- 文本更新 -->
+		<UpdateText id="INF_FE_TXT">
+			<File>text/leaders.xml</File>
+    	</UpdateText>
+
     	<!-- 阿兹特克/蒙特祖玛 -->
     	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
         	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
@@ -68,10 +73,7 @@
 		<UpdateText id="WSFEChinaText">
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
-		<!-- 中国/武秦 -->
-		<UpdateText id="INF_FE_TXT_CHINA_QINALT">
-			<File>Gameplay/China/QinAlt/Text.xml</File>
-    	</UpdateText>
+		
 	</FrontEndActions>
 
 	<!-- 游戏中 -->
@@ -120,12 +122,14 @@
 			<!-- 领袖 -->
 			<File>Gameplay/leaders.xml</File>
 		</UpdateDatabase>
+		<UpdateText id="INF_TXT">
+			<File>text/leaders.xml</File>
+    	</UpdateText>
+
 		<UpdateText id="WSInfluencerChinaText">
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
-		<UpdateText id="INF_TXT_CHINA_QINALT">
-			<File>Gameplay/China/QinAlt/Text.xml</File>
-    	</UpdateText>
+		
 
 		<!-- 大哥伦比亚 -->
 		<!-- <UpdateDatabase id="WSInfluencerColombiaDB">
@@ -175,6 +179,8 @@
 
 		<!-- 领袖 -->
 		<File>Gameplay/leaders.xml</File>
+		<!-- 文本更新 -->
+		<File>text/leaders.xml</File>
 
 		<!-- 阿兹特克/蒙特祖玛 -->
         <File>Gameplay/Aztec/Montezuma/CombatBonus.sql</File>
@@ -200,8 +206,6 @@
 		<File>Gameplay/China/ability_slavery.xml</File>
 		<File>Gameplay/China/ability.xml</File>
 		<File>Gameplay/China/text.xml</File>
-		<!-- 中国/武秦 -->
-		<File>Gameplay/China/QinAlt/Text.xml</File>
 
 		<!-- 大哥伦比亚 -->
 		<!-- <File>Gameplay/Colombia/GreatPeople.xml</File>
@@ -236,7 +240,7 @@
 		<File>Config/config_leader_qin_alt.xml</File>
 
 
-		<File>Text/china/qin_alt.xml</File>
-		<File>Text/china/qin_alt_hero.xml</File>
+		<File>text/china/qin_alt.xml</File>
+		<File>text/china/qin_alt_hero.xml</File>
 	</Files>
 </Mod>

@@ -3,13 +3,13 @@
     <Modifiers>
         <!-- 陆军击杀产生大将军点数 -->
 		<Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_20POI" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL" />           
-        <!-- <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_50PER" ModifierType="MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH" />-->      <!-- 战斗力的50%（原能力见DLC\Babylon\Data\Babylon_Leaders.xml `WOLIN_GREAT_GENERAL_POINTS`） --> 
+        <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_25PER" ModifierType="MODIFIER_PLAYER_ADJUST_UNITS_GREAT_PEOPLE_POINTS_PER_KILL_BY_DEFEATED_STRENGTH" />      <!-- 战斗力的50%（原能力见DLC\Babylon\Data\Babylon_Leaders.xml `WOLIN_GREAT_GENERAL_POINTS`） --> 
     </Modifiers>
     <ModifierArguments>
         <!-- 陆军击杀产生大将军点数-->
         <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_20POI" Name="Amount"                     Value="20" />                            <!-- 陆军击杀产生大将军点数 - 20点 -->
         <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_20POI" Name="GreatPersonClassType"       Value="GREAT_PERSON_CLASS_GENERAL" />
-        <!-- <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_50PER" Name="Amount"                     Value="50" />-->                            <!-- 陆军击杀产生大将军点数 - 战斗力50% -->
-        <!-- <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_50PER" Name="GreatPersonClassType"       Value="GREAT_PERSON_CLASS_GENERAL" />-->
+        <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_25PER" Name="Amount"                     Value="25" />                            <!-- 陆军击杀产生大将军点数 - 战斗力25% -->
+        <Row ModifierId="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_25PER" Name="GreatPersonClassType"       Value="GREAT_PERSON_CLASS_GENERAL" />
     </ModifierArguments>
 </GameInfo>

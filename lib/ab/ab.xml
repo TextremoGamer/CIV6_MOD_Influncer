@@ -4,7 +4,7 @@
         <!-- 单位击杀额外获取 -->
         <Row  ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER"                              ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD" />             <!-- 击杀单位50%的文化 -->
         <!-- 单位获得额外能力 -->
-		<Row ModifierId="INF_AB_UNITENHANCE_LAND_KILL_GREAT_GENERAL_POINT_50PER" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="INF_REQSET_LAND" />  <!-- 陆军击杀产生大将军点数 - 50% -->
+		<Row ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="INF_REQSET_LAND" />  <!-- 陆军击杀产生大将军点数 - 25% -->
         <!-- 外交事件触发能力 -->
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                          ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布突袭战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"             ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布领土扩张战争+2移速 -->
@@ -21,7 +21,7 @@
         <Row ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER" Name="YieldType"               Value="YIELD_CULTURE" />
         <Row ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER" Name="PercentDefeatedStrength" Value="50" />
         <!-- 单位获得额外能力 -->
-		<Row ModifierId="INF_AB_UNITENHANCE_LAND_KILL_GREAT_GENERAL_POINT_50PER" Name="ModifierId" Value="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_20POI" />		        <!-- 陆军击杀产生大将军点数 - 50% -->
+		<Row ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER" Name="ModifierId" Value="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_25PER" />		        <!-- 陆军击杀产生大将军点数 - 25% -->
         <!-- 外交事件触发能力 -->
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                  Name="DiplomaticYieldSource"    Value="SURPRISE_WAR_INITIATED" />
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                  Name="TurnsActive"              Value="10" />
