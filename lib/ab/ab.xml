@@ -13,8 +13,9 @@
         <Row ModifierId="INF_AB_SLOT_MILI_ADD_01"                                       ModifierType="MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER" />          <!-- 加军事槽 -->
         <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"                                 ModifierType="MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR"  />          <!-- 军事槽+5外交支持 -->
         <Row ModifierId="INF_AB_SLOT_MILI_COMBAT_STRENGTH_ADD_01"                       ModifierType="MODIFIER_PLAYER_UNITS_GRANT_ABILITY"  />                              <!-- 军事槽+1战斗力 -->
-        
-
+        <!-- spy -->
+        <Row ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" ModifierType="MODIFIER_PLAYER_GRANT_SPY"             OwnerRequirementsetId="INF_REQSET_TECH_CURRENCY" />                                   <!-- 提升间谍容量：1个（需要货币） -->
+        <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" ModifierType="MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL" OwnerRequirementsetId="INF_REQSET_TECH_CURRENCY" RunOnce="true" Permanent="true" />   <!-- 获得间谍：1个（需要货币） -->
     </Modifiers>
     <ModifierArguments>
         <!-- 单位击杀额外获取 -->
@@ -37,5 +38,10 @@
 		<Row ModifierId="INF_AB_SLOT_MILI_ADD_01"           Name="GovernmentSlotType"   Value="SLOT_MILITARY" />
         <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"     Name="GovernmentSlotType"   Value="SLOT_MILITARY"/>
         <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"     Name="Amount"               Value="5"/>
+        <!-- spy -->
+        <Row ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" Name="Amount"                    Value="1" />
+        <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="UnitType"                  Value="UNIT_SPY" />
+        <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="Amount"                    Value="1" />
+        <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="AllowUniqueOverride"       Value="false" />
     </ModifierArguments>
 </GameInfo>
