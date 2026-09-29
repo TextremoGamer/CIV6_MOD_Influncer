@@ -9,6 +9,7 @@
         <!-- QinAlt (see DLC\RulersOfChina\Data\RulersOfChina_Leaders.xml) -->
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02" />
+        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02" />        
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" />                            <!-- 战争时获得双倍厌战情绪 -->
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_ADD_01" />

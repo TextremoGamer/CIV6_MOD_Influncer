@@ -11,6 +11,7 @@
         <!-- 外交事件触发能力 -->
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                          ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布突袭战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"             ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布领土扩张战争+2移速 -->
+        <Row ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02"                    ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布领土扩张战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                              ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 被宣战+2移速 -->
         <!-- 厌战情绪 -->
         <Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02"                            ModifierType="MODIFIER_PLAYER_ADJUST_WAR_WEARINESS" />                              <!-- 交战时获得双倍厌战情绪 -->
@@ -39,6 +40,9 @@
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"     Name="DiplomaticYieldSource"    Value="TERRITORIAL_EXPANSION_WAR_INITIATED" />
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"     Name="TurnsActive"              Value="10" />
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"     Name="Amount"                   Value="2" />
+        <Row ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02"            Name="DiplomaticYieldSource"    Value="LIBERATION_WAR_INITIATED" />
+        <Row ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02"            Name="TurnsActive"              Value="10" />
+        <Row ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02"            Name="Amount"                   Value="2" />
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="DiplomaticYieldSource"    Value="WAR_DECLARATION_RECEIVED" />
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="TurnsActive"              Value="10" />
         <Row ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                      Name="Amount"                   Value="2" />
