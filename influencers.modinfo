@@ -52,6 +52,7 @@
 
 		<!-- 文本更新 -->
 		<UpdateText id="INF_FE_TXT">
+			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
     	</UpdateText>
 
@@ -63,10 +64,6 @@
 		<!-- 巴比伦 -->
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Babylon/text.xml</File>
-    	</UpdateText>
-
-		<UpdateText id="INF_TXT_BYZANTIUM">
-			<File>Gameplay/Byzantium/Text.xml</File>
     	</UpdateText>
 
 		<!-- 中国 -->
@@ -93,15 +90,6 @@
 		<UpdateText id="WSInfluencerBabylonText">
 			<File>Gameplay/Babylon/text.xml</File>
     	</UpdateText>
-
-		<!-- 拜占庭 -->
-		<UpdateDatabase id="INF_DB_BYZANTIUM">
-            <File>Gameplay/Byzantium/Ability.xml</File>
-        </UpdateDatabase>
-		<UpdateText id="INF_TXT_BYZANTIUM">
-			<File>Gameplay/Byzantium/Text.xml</File>
-    	</UpdateText>
-
 		
 		<UpdateDatabase id="INF_DB">
 			<File>lib/reqset.xml</File>
@@ -123,6 +111,7 @@
 			<File>Gameplay/leaders.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="INF_TXT">
+			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
     	</UpdateText>
 
@@ -180,6 +169,7 @@
 		<File>Gameplay/civilizations.xml</File>
 		<File>Gameplay/leaders.xml</File>
 		<!-- 文本更新 -->
+		<File>text/civilizations.xml</File>
 		<File>text/leaders.xml</File>
 
 		<!-- 阿兹特克/蒙特祖玛 -->
@@ -189,10 +179,6 @@
 		<!-- 巴比伦 -->
 		<File>Gameplay/Babylon/ability.xml</File>
 		<File>Gameplay/Babylon/text.xml</File>
-
-		<!-- 拜占庭 -->
-		<File>Gameplay/Byzantium/Ability.xml</File>
-		<File>Gameplay/Byzantium/Text.xml</File>
 		
 		<!-- 中国 -->
 		<File>Gameplay/China/ability_collectivism_unit.xml</File>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
+	<ModifierArguments>
+        <!-- 拜占庭：普通战斗力 & 宗教战斗力的加成从3改为8 -->
+        <Update><Where ModifierId="BYZANTIUM_COMBAT_HOLY_CITIES" Name="Amount"/><Set Value="8" /></Update>
+        <Update><Where ModifierId="BYZANTIUM_RELIGIOUS_COMBAT_HOLY_CITIES" Name="Amount"/><Set Value="8" /></Update>
+    </ModifierArguments>
     <TraitModifiers>
+		<!-- 拜占庭 -->
+		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" 		ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" />						<!-- 占星术 -->
         <!-- China -->
-		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"    />					<!-- 占星术 -->
-		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" />					<!-- 造船术 -->
-		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" />				<!-- 货币解锁间谍 -->
-		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" />				<!-- 货币解锁间谍 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"    />					<!-- 占星术 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" />					<!-- 造船术 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
 	</TraitModifiers>  
 </GameInfo>
