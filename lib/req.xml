@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+	<Requirements>
+        <!-- land unit class requirement -->
+		<Row RequirementId="INF_REQ_LAND_RECON"             RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+		<Row RequirementId="INF_REQ_LAND_MELEE"             RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_RANGED"            RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_SIEGE"             RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_HEAVY_CAVALRY"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_LIGHT_CAVALRY"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_RANGED_CAVALRY"    RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_ANTI_CAVALRY"      RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+        <Row RequirementId="INF_REQ_LAND_WARRIOR_MONK"      RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
+    
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+        </Row>
+		<!-- TECH -->
+		<Row>
+			<RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- land units -->
+		<Row RequirementId="INF_REQ_LAND_RECON"             Name="Tag" Value="CLASS_RECON" />
+        <Row RequirementId="INF_REQ_LAND_MELEE"             Name="Tag" Value="CLASS_MELEE" />
+        <Row RequirementId="INF_REQ_LAND_RANGED"            Name="Tag" Value="CLASS_RANGED" />
+        <Row RequirementId="INF_REQ_LAND_SIEGE"             Name="Tag" Value="CLASS_SIEGE" />
+        <Row RequirementId="INF_REQ_LAND_HEAVY_CAVALRY"     Name="Tag" Value="CLASS_HEAVY_CAVALRY" />
+        <Row RequirementId="INF_REQ_LAND_LIGHT_CAVALRY"     Name="Tag" Value="CLASS_LIGHT_CAVALRY" />
+        <Row RequirementId="INF_REQ_LAND_RANGED_CAVALRY"    Name="Tag" Value="CLASS_RANGED_CAVALRY" />
+        <Row RequirementId="INF_REQ_LAND_ANTI_CAVALRY"      Name="Tag" Value="CLASS_ANTI_CAVALRY" />
+        <Row RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"     Name="Tag" Value="CLASS_HEAVY_CHARIOT" />
+        <Row RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"     Name="Tag" Value="CLASS_LIGHT_CHARIOT" />
+        <Row RequirementId="INF_REQ_LAND_WARRIOR_MONK"      Name="Tag" Value="CLASS_WARRIOR_MONK" />
+  
+
+		
+	
+		
+	
+		<!-- navy units -->
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_RANGED</Value>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_RAIDER</Value>
+        </Row>
+		<Row>
+            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
+            <Name>Tag</Name>
+            <Value>CLASS_NAVAL_MELEE</Value>
+        </Row>
+		<!-- Tech -->
+		<Row>
+            <RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
+            <Name>TechnologyType</Name>
+            <Value>TECH_CURRENCY</Value>
+        </Row>
+	</RequirementArguments>
+</GameInfo>

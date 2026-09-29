@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <RequirementSets>
+        <!-- land unit class requirementset -->
+		<Row RequirementSetId="INF_REQSET_LAND" RequirementSetType="REQUIREMENTSET_TEST_ANY" />
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- land unit class requirementset -->
+		<Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_RECON"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_MELEE"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_RANGED"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_SIEGE"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_HEAVY_CAVALRY"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_LIGHT_CAVALRY"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_RANGED_CAVALRY"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_ANTI_CAVALRY"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"/>
+        <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_WARRIOR_MONK"/>
+	</RequirementSetRequirements>
+</GameInfo>

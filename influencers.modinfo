@@ -104,7 +104,9 @@
 		<UpdateDatabase id="INF_DB">
 			<File>lib/reqset.xml</File>
 			<File>lib/req.xml</File>
-			<!-- 中国 -->
+			<File>lib/ab/ab_unit.xml</File>
+			<File>lib/ab/ab.xml</File>
+			<!-- 文明/中国 -->
 			<File>Gameplay/China/ability_collectivism_unit.xml</File>
 			<File>Gameplay/China/ability_collectivism.xml</File>
 			<File>Gameplay/China/ability_spy_currency.xml</File>
@@ -115,16 +117,13 @@
 			<File>Gameplay/China/ability_slavery_greatwork_bonus.xml</File>
 			<File>Gameplay/China/ability_slavery.xml</File>
 			<File>Gameplay/China/ability.xml</File>
+			<!-- 领袖/武秦 -->
+			<File>Gameplay/China/QinAlt/ability_military.xml</File>
+			<File>Gameplay/China/QinAlt/Ability.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="WSInfluencerChinaText">
 			<File>Gameplay/China/text.xml</File>
     	</UpdateText>
-		<!-- 中国/武秦 -->
-		<UpdateDatabase id="INF_DB_CHINA_QINALT">
-			<File>Gameplay/China/QinAlt/ability_military_unit.xml</File>
-			<File>Gameplay/China/QinAlt/ability_military.xml</File>
-			<File>Gameplay/China/QinAlt/Ability.xml</File>
-		</UpdateDatabase>
 		<UpdateText id="INF_TXT_CHINA_QINALT">
 			<File>Gameplay/China/QinAlt/Text.xml</File>
     	</UpdateText>
@@ -169,6 +168,8 @@
 		<!-- lib库 -->
 		<File>lib/reqset.xml</File>
 		<File>lib/req.xml</File>
+		<File>lib/ab/ab_unit.xml</File>
+		<File>lib/ab/ab.xml</File>
 
 		<!-- Mod本身介绍 -->
 		<File>description.xml</File>
@@ -198,7 +199,6 @@
 		<File>Gameplay/China/ability.xml</File>
 		<File>Gameplay/China/text.xml</File>
 		<!-- 中国/武秦 -->
-		<File>Gameplay/China/QinAlt/ability_military_unit.xml</File>
 		<File>Gameplay/China/QinAlt/ability_military.xml</File>
 		<File>Gameplay/China/QinAlt/Ability.xml</File>
 		<File>Gameplay/China/QinAlt/Text.xml</File>

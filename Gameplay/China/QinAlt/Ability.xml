@@ -1,7 +1,6 @@
 <!--
 武秦德能力来自 DLC\RulersOfChina\Data\RulersOfChina_Leaders.xml
 -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <TraitModifiers>
@@ -12,6 +11,7 @@
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_CHINA_QINALT_AB_SLOT_MILI_FAVOR_PLUS" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_CHINA_QINALT_AB_SLOT_MILI_COMBAT_STRENGTH_PLUS" />
         <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_CHINA_QINALT_AB_KILL_BONUS_CULTURE" />
+        <!-- <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_UNITENHANCE_LAND_KILL_GREAT_GENERAL_POINT_50PER" /> -->
         <!-- remove the previous -->
 		<Delete TraitType="TRAIT_LEADER_QIN" ModifierId="QIN_MELEE_UNIT_ABILITY"/>
     </TraitModifiers>

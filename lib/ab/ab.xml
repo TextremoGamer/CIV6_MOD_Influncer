@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 单位获得额外能力 -->
+		<Row ModifierId="INF_AB_UNITENHANCE_LAND_KILL_GREAT_GENERAL_POINT_50PER" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="INF_REQSET_LAND" />  <!-- 陆军击杀产生大将军点数 - 50% -->
+    </Modifiers>
+    <ModifierArguments>
+        <!-- 单位获得额外能力 -->
+		<Row ModifierId="INF_AB_UNITENHANCE_LAND_KILL_GREAT_GENERAL_POINT_50PER" Name="ModifierId" Value="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_20POI" />		                <!-- 陆军击杀产生大将军点数 - 50% -->
+    </ModifierArguments>
+</GameInfo>
