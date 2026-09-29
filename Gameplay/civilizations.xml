@@ -13,5 +13,11 @@
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" />					<!-- 造船术 -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
+		<!-- 印度 -->
+		<Row TraitType="TRAIT_CIVILIZATION_DHARMA" ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" />								<!-- 占星术 -->
+        <!-- 日本 -->
+		<Row TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS" ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" /> 					<!-- 占星术 -->
+        <!-- 西班牙 -->
+		<Row TraitType="TRAIT_CIVILIZATION_TREASURE_FLEET" ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" />						<!-- 占星术 -->
 	</TraitModifiers>  
 </GameInfo>
