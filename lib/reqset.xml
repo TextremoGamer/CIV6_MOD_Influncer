@@ -3,6 +3,8 @@
     <RequirementSets>
         <!-- land unit class requirementset -->
 		<Row RequirementSetId="INF_REQSET_LAND" RequirementSetType="REQUIREMENTSET_TEST_ANY" />
+        <!-- TECH -->
+        <Row RequirementSetId="INF_REQSET_TECH_CURRENCY" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- land unit class requirementset -->
@@ -17,5 +19,7 @@
         <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"/>
         <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"/>
         <Row RequirementSetId="INF_REQSET_LAND" RequirementId="INF_REQ_LAND_WARRIOR_MONK"/>
+        <!-- TECH -->
+		<Row RequirementSetId="INF_REQSET_TECH_CURRENCY" RequirementId="INF_REQ_TECH_CURRENCY" />
 	</RequirementSetRequirements>
 </GameInfo>

@@ -13,24 +13,8 @@
         <Row RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
         <Row RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"     RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
         <Row RequirementId="INF_REQ_LAND_WARRIOR_MONK"      RequirementType="REQUIREMENT_UNIT_TAG_MATCHES" />
-    
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
-            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
-        </Row>
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
-            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
-        </Row>
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
-            <RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
-        </Row>
-		<!-- TECH -->
-		<Row>
-			<RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
-			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
-		</Row>
+         <!-- TECH -->
+		<Row RequirementId="INF_REQ_TECH_CURRENCY"          RequirementType="REQUIREMENT_PLAYER_HAS_TECHNOLOGY" />     <!-- 货币需求 -->		
 	</Requirements>
 	<RequirementArguments>
 		<!-- land units -->
@@ -45,33 +29,7 @@
         <Row RequirementId="INF_REQ_LAND_HEAVY_CHARIOT"     Name="Tag" Value="CLASS_HEAVY_CHARIOT" />
         <Row RequirementId="INF_REQ_LAND_LIGHT_CHARIOT"     Name="Tag" Value="CLASS_LIGHT_CHARIOT" />
         <Row RequirementId="INF_REQ_LAND_WARRIOR_MONK"      Name="Tag" Value="CLASS_WARRIOR_MONK" />
-  
-
-		
-	
-		
-	
-		<!-- navy units -->
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RANGED</RequirementId>
-            <Name>Tag</Name>
-            <Value>CLASS_NAVAL_RANGED</Value>
-        </Row>
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_RAIDER</RequirementId>
-            <Name>Tag</Name>
-            <Value>CLASS_NAVAL_RAIDER</Value>
-        </Row>
-		<Row>
-            <RequirementId>TRAIT_MILITANCY_REQ_NAVY_MELEE</RequirementId>
-            <Name>Tag</Name>
-            <Value>CLASS_NAVAL_MELEE</Value>
-        </Row>
-		<!-- Tech -->
-		<Row>
-            <RequirementId>WS_REQ_TECH_CURRENCY</RequirementId>
-            <Name>TechnologyType</Name>
-            <Value>TECH_CURRENCY</Value>
-        </Row>
+        <!-- TECH -->
+        <Row RequirementId="INF_REQ_TECH_CURRENCY"          Name="TechnologyType" Value="TECH_CURRENCY" />
 	</RequirementArguments>
 </GameInfo>
