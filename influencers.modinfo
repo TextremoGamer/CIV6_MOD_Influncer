@@ -65,11 +65,6 @@
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Babylon/text.xml</File>
     	</UpdateText>
-
-		<!-- 中国 -->
-		<UpdateText id="WSFEChinaText">
-			<File>Gameplay/China/text.xml</File>
-    	</UpdateText>
 		
 	</FrontEndActions>
 
@@ -114,11 +109,6 @@
 			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
     	</UpdateText>
-
-		<UpdateText id="WSInfluencerChinaText">
-			<File>Gameplay/China/text.xml</File>
-    	</UpdateText>
-		
 
 		<!-- 大哥伦比亚 -->
 		<!-- <UpdateDatabase id="WSInfluencerColombiaDB">
@@ -190,7 +180,6 @@
 		<File>Gameplay/China/ability_slavery_greatwork_bonus.xml</File>
 		<File>Gameplay/China/ability_slavery.xml</File>
 		<File>Gameplay/China/ability.xml</File>
-		<File>Gameplay/China/text.xml</File>
 
 		<!-- 大哥伦比亚 -->
 		<!-- <File>Gameplay/Colombia/GreatPeople.xml</File>
