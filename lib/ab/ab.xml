@@ -50,10 +50,10 @@
         <Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" Name="Amount"  Value="100" />
 		<Row ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" Name="Overall" Value="true" />
         <!-- 军事槽相关能力 -->
-        <Row ModifierId="INF_AB_SLOT_MILI_ADD_01"           Name="AbilityType"          Value="ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS" />
-		<Row ModifierId="INF_AB_SLOT_MILI_ADD_01"           Name="GovernmentSlotType"   Value="SLOT_MILITARY" />
-        <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"     Name="GovernmentSlotType"   Value="SLOT_MILITARY"/>
-        <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"     Name="Amount"               Value="5"/>
+		<Row ModifierId="INF_AB_SLOT_MILI_ADD_01"                   Name="GovernmentSlotType"   Value="SLOT_MILITARY" />
+        <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"             Name="GovernmentSlotType"   Value="SLOT_MILITARY"/>
+        <Row ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"             Name="Amount"               Value="5"/>
+        <Row ModifierId="INF_AB_SLOT_MILI_COMBAT_STRENGTH_ADD_01"   Name="AbilityType"          Value="ABILITY_GORGO_POLICY_SLOT_COMBAT_BONUS" />
         <!-- spy -->
         <Row ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" Name="Amount"                    Value="1" />
         <Row ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" Name="UnitType"                  Value="UNIT_SPY" />
