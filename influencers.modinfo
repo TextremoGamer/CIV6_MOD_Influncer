@@ -100,13 +100,15 @@
 			<File>Gameplay/Byzantium/Text.xml</File>
     	</UpdateText>
 
-		<!-- 中国 -->
-		<UpdateDatabase id="INF_DB_CHINA">
+		
+		<UpdateDatabase id="INF_DB">
+			<File>lib/reqset.xml</File>
+			<File>lib/req.xml</File>
+			<!-- 中国 -->
 			<File>Gameplay/China/ability_collectivism_unit.xml</File>
 			<File>Gameplay/China/ability_collectivism.xml</File>
 			<File>Gameplay/China/ability_spy_currency.xml</File>
 			<File>Gameplay/China/ability_foolish.xml</File>
-			<File>Gameplay/China/ability_military_land.xml</File>
 			<File>Gameplay/China/ability_military_religionspread.xml</File>
 			<File>Gameplay/China/ability_military.xml</File>
 			<File>Gameplay/China/ability_slavery_unitcommands.xml</File>
@@ -164,6 +166,10 @@
 	</InGameActions>
 
 	<Files>
+		<!-- lib库 -->
+		<File>lib/reqset.xml</File>
+		<File>lib/req.xml</File>
+
 		<!-- Mod本身介绍 -->
 		<File>description.xml</File>
 
@@ -184,7 +190,6 @@
 		<File>Gameplay/China/ability_collectivism.xml</File>
 		<File>Gameplay/China/ability_spy_currency.xml</File>
 		<File>Gameplay/China/ability_foolish.xml</File>
-		<File>Gameplay/China/ability_military_land.xml</File>
 		<File>Gameplay/China/ability_military_religionspread.xml</File>
 		<File>Gameplay/China/ability_military.xml</File>
 		<File>Gameplay/China/ability_slavery_unitcommands.xml</File>
