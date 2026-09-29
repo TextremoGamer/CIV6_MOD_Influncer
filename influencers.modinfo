@@ -117,9 +117,8 @@
 			<File>Gameplay/China/ability_slavery_greatwork_bonus.xml</File>
 			<File>Gameplay/China/ability_slavery.xml</File>
 			<File>Gameplay/China/ability.xml</File>
-			<!-- 领袖/武秦 -->
-			<File>Gameplay/China/QinAlt/ability_military.xml</File>
-			<File>Gameplay/China/QinAlt/Ability.xml</File>
+			<!-- 领袖 -->
+			<File>Gameplay/leaders.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="WSInfluencerChinaText">
 			<File>Gameplay/China/text.xml</File>
@@ -174,6 +173,9 @@
 		<!-- Mod本身介绍 -->
 		<File>description.xml</File>
 
+		<!-- 领袖 -->
+		<File>Gameplay/leaders.xml</File>
+
 		<!-- 阿兹特克/蒙特祖玛 -->
         <File>Gameplay/Aztec/Montezuma/CombatBonus.sql</File>
 		<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
@@ -199,8 +201,6 @@
 		<File>Gameplay/China/ability.xml</File>
 		<File>Gameplay/China/text.xml</File>
 		<!-- 中国/武秦 -->
-		<File>Gameplay/China/QinAlt/ability_military.xml</File>
-		<File>Gameplay/China/QinAlt/Ability.xml</File>
 		<File>Gameplay/China/QinAlt/Text.xml</File>
 
 		<!-- 大哥伦比亚 -->
