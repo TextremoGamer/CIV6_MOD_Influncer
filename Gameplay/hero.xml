@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameInfo>
     <!-- 没有效果（来自DLC\Babylon\Data\Babylon_Heroes_MODE.xml）-->
+    <!--  -->
+    <!-- <ModifierArguments>
+        <Update><Where ModifierId="MODIFIER_MULAN_STRENGTH_PER_TURN" Name="Amount"/><Set Value="0" /></Update>
+    </ModifierArguments> -->
+    <!-- <Units>
+        <Update><Where UnitType="UNIT_HERO_MULAN"/><Set CombatStrength="1" RangedCombatStrength="1"/>
+        </Update>
+    </Units>
 	<HeroClassProgressions>
         <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_CLASSICAL"/>    <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
         <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_MEDIEVAL"/>     <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
@@ -9,5 +17,5 @@
         <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_MODERN"/>       <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
         <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_ATOMIC"/>       <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
         <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_INFORMATION"/>  <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
-    </HeroClassProgressions>
+    </HeroClassProgressions> -->
 </GameInfo>
