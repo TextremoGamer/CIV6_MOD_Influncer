@@ -9,7 +9,8 @@
         <!-- 单位获得额外能力 -->
 		<Row ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER" ModifierType="MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER" SubjectRequirementSetId="INF_REQSET_LAND" />  <!-- 陆军击杀产生大将军点数 - 25% -->
         <!-- 城市效果 -->
-        <Row ModifierId="INF_AB_CAPTURE_CITY_HEAL_100PER" ModifierType="MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER" />       <!-- 占领城市恢复100% -->
+        <Row ModifierId="INF_AB_CAPTURE_CITY_HEAL_100PER"   ModifierType="MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER" />             <!-- 占领城市恢复100% -->
+        <Row ModifierId="INF_AB_CITY_FREE_BUILDING_ADD_01"  ModifierType="MODIFIER_PLAYER_CITIES_GRANT_CHEAPEST_BUILDING_IN_CITY" />    <!-- 城市获得免费市中心建筑 -->
         <!-- TECH -->
         <Row ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"        ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />         <!-- 占星术 -->
         <Row ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING"     ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />         <!-- 造船术 -->
@@ -43,6 +44,7 @@
 		<Row ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER" Name="ModifierId" Value="INF_AB_UNIT_LAND_KILL_GREAT_GENERAL_POINT_25PER" />		        <!-- 陆军击杀产生大将军点数 - 25% -->
         <!-- 城市效果 -->
         <Row ModifierId="INF_AB_CAPTURE_CITY_HEAL_100PER" Name="ModifierId" Value="INF_AB_CITY_CAPTURE_CITY_HEAL_100PER" />
+        <Row ModifierId="INF_AB_CITY_FREE_BUILDING_ADD_01" Name="Amount" Value="1" />
         <!-- TECH -->
 		<Row ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"    Name="TechType" Value="TECH_ASTROLOGY"      />
 		<Row ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" Name="TechType" Value="TECH_SHIPBUILDING"   />

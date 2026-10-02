@@ -8,8 +8,8 @@ Expansion2的描述定义来自`DLC\Expansion2\Data\Expansion2_Civilizations.xml
 <GameData>
   	<LocalizedText>
         <!-- 拜占庭 -->
-        <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN"   Text="游戏初期便解锁“占星术”。每有1座圣城皈依拜占庭的宗教（也包括拜占庭的圣城），单位便获得+8 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。如城市拥有圣地区域，其提供的 [ICON_GreatProphet] 大预言家点数+1。" />
-        <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="en_US"        Text="Unlock Astrology early in the game. Units receive +8 [ICON_Strength] Combat Strength or [ICON_Religion] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). Byzantium's Religion is spread to nearby cities when defeating a unit belonging to an enemy civilization or city-state. +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district" />
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN"   Text="游戏初期便解锁“占星术”。所有城市在建立时免费获得一个市中心建筑（若标准远古时代开局，免费送一个纪念碑）。每有1座圣城皈依拜占庭的宗教（也包括拜占庭的圣城），单位便获得+8 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。如城市拥有圣地区域，其提供的 [ICON_GreatProphet] 大预言家点数+1。" />
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="en_US"        Text="Unlock Astrology early in the game. All cities start with an additional City Center building. If starting in the Ancient Era, this is a Monument. Units receive +8 [ICON_Strength] Combat Strength or [ICON_Religion] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). Byzantium's Religion is spread to nearby cities when defeating a unit belonging to an enemy civilization or city-state. +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district" />
         <!-- China -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" 	Language="zh_Hans_CN" 	Text="法家治国" />
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" 	Language="en_US" 		Text="Chinese Legalism" />
