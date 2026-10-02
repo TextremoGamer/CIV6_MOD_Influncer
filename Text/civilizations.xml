@@ -7,6 +7,9 @@ Expansion2的描述定义来自`DLC\Expansion2\Data\Expansion2_Civilizations.xml
 -->
 <GameData>
   	<LocalizedText>
+        <!-- 巴比伦 -->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="zh_Hans_CN" Text="游戏初期解锁火药。建立首都时获得一个主力军团，建立或占领城市获得一个当前最强的近战单位。[ICON_TechBoosted] 尤里卡提供科技的所有 [ICON_SCIENCE] 科技值。每回合的 [ICON_SCIENCE] 科技值-50%。" />
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION" Language="en_US"      Text="Unlock Gunpower in the beginning. Building a capital offers a Sabum Kibittum, founding or capturing a city immediately grants a strongest melee unit. [ICON_TechBoosted] Eurekas provide all of the [ICON_SCIENCE] Science for technologies. -50% [ICON_SCIENCE] Science per turn." />
         <!-- 拜占庭 -->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="zh_Hans_CN"   Text="游戏初期便解锁“占星术”。所有城市在建立时免费获得一个市中心建筑（若标准远古时代开局，免费送一个纪念碑）。每有1座圣城皈依拜占庭的宗教（也包括拜占庭的圣城），单位便获得+8 [ICON_Strength] 战斗力或 [ICON_Religion] 宗教战斗力。击杀敌方文明或城邦的单位时，拜占庭的宗教将传播到附近的城市。如城市拥有圣地区域，其提供的 [ICON_GreatProphet] 大预言家点数+1。" />
         <Replace Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION" Language="en_US"        Text="Unlock Astrology early in the game. All cities start with an additional City Center building. If starting in the Ancient Era, this is a Monument. Units receive +8 [ICON_Strength] Combat Strength or [ICON_Religion] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). Byzantium's Religion is spread to nearby cities when defeating a unit belonging to an enemy civilization or city-state. +1 [ICON_GreatProphet] Great Prophet point from cities with a Holy Site district" />

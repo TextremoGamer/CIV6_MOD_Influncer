@@ -57,12 +57,6 @@
     	<UpdateText id="WSInfluencerAztecMontezumaFrontEnd">
         	<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
     	</UpdateText>
-
-		<!-- 巴比伦 -->
-		<UpdateText id="WSInfluencerAztecMontezumaText">
-			<File>Gameplay/Babylon/text.xml</File>
-    	</UpdateText>
-		
 	</FrontEndActions>
 
 	<!-- 游戏中 -->
@@ -73,14 +67,6 @@
         </UpdateDatabase>
 		<UpdateText id="WSInfluencerAztecMontezumaText">
 			<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
-    	</UpdateText>
-
-		<!-- 巴比伦 -->
-		<UpdateDatabase id="WSInfluencerBabylonSQL">
-            <File>Gameplay/Babylon/ability.xml</File>
-        </UpdateDatabase>
-		<UpdateText id="WSInfluencerBabylonText">
-			<File>Gameplay/Babylon/text.xml</File>
     	</UpdateText>
 		
 		<UpdateDatabase id="INF_DB">
@@ -175,10 +161,6 @@
 		<!-- 阿兹特克/蒙特祖玛 -->
         <File>Gameplay/Aztec/Montezuma/CombatBonus.sql</File>
 		<File>Gameplay/Aztec/Montezuma/MontezumaText.xml</File>
-
-		<!-- 巴比伦 -->
-		<File>Gameplay/Babylon/ability.xml</File>
-		<File>Gameplay/Babylon/text.xml</File>
 		
 		<!-- 中国 -->
 		<File>Gameplay/China/ability_collectivism_unit.xml</File>

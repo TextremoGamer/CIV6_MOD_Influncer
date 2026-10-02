@@ -6,6 +6,10 @@
         <Update><Where ModifierId="BYZANTIUM_RELIGIOUS_COMBAT_HOLY_CITIES" Name="Amount"/><Set Value="8" /></Update>
     </ModifierArguments>
     <TraitModifiers>
+		 <!-- 巴比伦 -->
+		<Row TraitType="TRAIT_CIVILIZATION_BABYLON" 		ModifierId="INF_AB_SCI_GRANT_GUNPOWDER"/>
+        <Row TraitType="TRAIT_CIVILIZATION_BABYLON" 		ModifierId="INF_AB_CITY_GET_MELEE_ADD_01"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BABYLON" 		ModifierId="INF_AB_CAPITAL_GRANT_UNIT_SABUM_KIBITTUM"/>
 		<!-- 拜占庭 -->
 		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" 		ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" />						<!-- 占星术 -->
 		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" 		ModifierId="INF_AB_CITY_FREE_BUILDING_ADD_01" />				<!-- 免费市中心建筑 -->
