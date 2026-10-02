@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  	<LocalizedText>
+        <!-- 吉尔伽美什 -->
+        <Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_NAME" Language="zh_Hans_CN" Text="恩奇都奇遇" />
+        <Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_NAME" Language="en_US"      Text="Adventures with Enkidu" />
+        <Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_DESCRIPTION" Language="zh_Hans_CN" Text="可以向正在与其盟友交战的文明宣战，而不获得好战程度。与同一个敌人交战时，如果他们与其盟友位于5个单元格以内，则共享掠夺奖励和战斗经验值。其同盟针对同一个敌人作战可获得同盟点数。与本方及本方盟友的交战方作战时+5 [ICON_Strength] 战斗力。" />
+        <Replace Tag="LOC_TRAIT_LEADER_GILGAMESH_HEROES_DESCRIPTION" Language="en_US"      Text="May declare war on anyone at war with their allies without warmonger penalties. When at war with a common foe, they and their allies share pillage rewards and share combat experience gains if within 5 tiles. Their Alliances gain Alliance Points for being at war with a common foe. +5 [ICON_Strength] Combat Strength against units of players at war with you and your ally." />
+    </LocalizedText>
+</GameData>
+
+
+
+<!-- <Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION">
+    <Text>When at war with a common foe, they and their allies share pillage rewards and share combat experience gains if within 5 tiles. Their Alliances gain Alliance Points for being at war with a common foe. +5 [ICON_Strength] Combat Strength against units of players at war with you and your ally.</Text>
+</Row>
+<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+    <Text>与同一个敌人交战时，如果他们与其盟友位于5个单元格以内，则共享掠夺奖励和战斗经验值。其同盟针对同一个敌人作战可获得同盟点数。与本方及本方盟友的交战方作战时+5 [ICON_Strength] 战斗力。</Text>
+</Replace>
+<Row Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION1_DESCRIPTION">
+    <Text>May declare war on anyone at war with their allies without warmonger penalties. When at war with a common foe, they and their allies share pillage rewards and share combat experience gains if within 5 tiles. Their Alliances gain Alliance Points for being at war with a common foe. +5 [ICON_Strength] Combat Strength against units of players at war with you and your ally.</Text>
+</Row>
+<Replace Tag="LOC_TRAIT_LEADER_ADVENTURES_ENKIDU_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+    <Text>可以向正在与其盟友交战的文明宣战，而不获得好战程度。与同一个敌人交战时，如果他们与其盟友位于5个单元格以内，则共享掠夺奖励和战斗经验值。其同盟针对同一个敌人作战可获得同盟点数。与本方及本方盟友的交战方作战时+5 [ICON_Strength] 战斗力。</Text>
+</Replace> -->

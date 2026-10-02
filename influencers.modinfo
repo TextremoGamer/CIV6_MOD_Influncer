@@ -50,6 +50,7 @@
 		<UpdateText id="INF_FE_TXT">
 			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
+			<File>text/leaders_hero_mode.xml</File>
     	</UpdateText>
 
     	<!-- 阿兹特克/蒙特祖玛 -->
@@ -105,10 +106,12 @@
 		<UpdateDatabase id="INF_DB_HERO_MODE" criteria="HERO_MODE">
 			<File>Gameplay/hero.xml</File>
 			<File>Gameplay/civilizations_hero_mode.xml</File>
+			<File>Gameplay/leaders_hero_mode.xml</File>
 		</UpdateDatabase>
 		<UpdateText id="INF_TXT">
 			<File>text/civilizations.xml</File>
 			<File>text/leaders.xml</File>
+			<File>text/leaders_hero_mode.xml</File>
     	</UpdateText>
 
 		<!-- 大哥伦比亚 -->
@@ -159,10 +162,12 @@
 		<File>description.xml</File>
 		<File>Gameplay/civilizations_hero_mode.xml</File>
 		<File>Gameplay/civilizations.xml</File>
+		<File>Gameplay/leaders_hero_mode.xml</File>
 		<File>Gameplay/leaders.xml</File>
 		<!-- 文本更新 -->
 		<File>text/civilizations.xml</File>
 		<File>text/leaders.xml</File>
+		<File>text/leaders_hero_mode.xml</File>
 
 		<!-- 模式更新 -->
 		<File>Gameplay/hero.xml</File>	<!-- 英雄模式 -->
