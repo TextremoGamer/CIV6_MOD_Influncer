@@ -24,6 +24,9 @@ Expansion2的描述定义来自`DLC\Expansion2\Data\Expansion2_Civilizations.xml
 		<Replace Tag="WS_AB_UNIT_COLLECT_RECRUIT_NAME" Language="en_US" 		Text="Fight for all" />
 		<Replace Tag="WS_AB_UNIT_COLLECT_RECRUIT_DESCRIPTION" Language="zh_Hans_CN" Text="近战和抗骑兵单位可以归顺蛮族，初始次数为1，获得圣索菲亚大教堂后变为2次，次数耗尽则单位消失。" />
 		<Replace Tag="WS_AB_UNIT_COLLECT_RECRUIT_DESCRIPTION" Language="en_US" 		Text="Melee and anti-cavalry units can recruit barbarians. This starts with 1 charge but up to 2 with the Hagia Sophia. The unit disappears when charges exhausted." />
+        <!-- 蒙古 -->
+        <Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="zh_Hans_CN" 	Text="游戏初级便解锁“马镫”。创建 [ICON_TradeRoute] 贸易路线后，目的地城市中将立即出现1座 [ICON_TradingPost] 贸易站。在一个文明的任意城市中拥有1座 [ICON_TradingPost] 贸易站后，[ICON_VisLimited] 外交能见度则上升1级。只要拥有比敌方更高的 [ICON_VisLimited] 外交能见度，所有蒙古单位情报 [ICON_Strength] 战斗力加成则翻1倍。" />
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION" Language="en_US" 		    Text="Stirrups is unlocked early in the game. After creating a [ICON_TradeRoute] Trade Route, 1 [ICON_TradingPost] Trading Post immediately appears in the destination city. After you have 1 [ICON_TradingPost] Trading Post in any city of a civilization, [ICON_VisLimited] Diplomatic Visibility increases by 1 level. As long as you have higher [ICON_VisLimited] Diplomatic Visibility than the enemy, the intelligence [ICON_Strength] Combat Strength bonus of all Mongolian units is doubled." />        
         <!-- 印度 （expansion2 描述在DLC\Expansion2\Text\en_US\Expansion2_ConfigText.xml）-->
         <Replace Tag="LOC_TRAIT_CIVILIZATION_DHARMA_DESCRIPTION"            Language="zh_Hans_CN"   Text="游戏初期便解锁“占星术”。从城市中的每种宗教（至少有一个信徒）获得信徒信仰加成。" />
         <Replace Tag="LOC_TRAIT_CIVILIZATION_DHARMA_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN"   Text="游戏初期便解锁“占星术”。从城市中的每个宗教（其须拥有至少1个信徒）获得信徒信仰加成。城市从每个宗教（须有至少1个信徒）获得1点 [ICON_Amenities] 宜居度。传教士的传播次数+2。来自 [ICON_TradeRoute] 贸易路线的宗教压力+100%。" />

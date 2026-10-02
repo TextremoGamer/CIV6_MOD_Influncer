@@ -14,7 +14,8 @@
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_CAP_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_NUM_ADD_01_REQ_TECH_CURRENCY" />			<!-- 货币解锁间谍 -->
 		<Row TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE" 	ModifierId="INF_SPY_PROMOTION_UNLIMITED" />						<!-- 间谍可以自由选择升级 -->
-		
+		<!-- 蒙古 -->
+		<Row TraitType="TRAIT_CIVILIZATION_MONGOLIAN_ORTOO" ModifierId="INF_AB_SCI_GRANT_STIRRUPS"	/>						<!-- 马镫 -->
 		<!-- 印度 -->
 		<Row TraitType="TRAIT_CIVILIZATION_DHARMA" ModifierId="INF_AB_SCI_GRANT_ASTROLOGY" />								<!-- 占星术 -->
         <!-- 日本 -->

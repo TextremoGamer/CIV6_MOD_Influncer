@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <GameInfo>
     <Modifiers>
+        <!-- 单位获得额外移动力 -->
+        <Row ModifierId="INF_AB_UNIT_MOVE_ADD_01" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" />
+        <Row ModifierId="INF_AB_UNIT_MOVE_ADD_02" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT" />
         <!-- 单位击杀额外获取 -->
         <Row  ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER"                              ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD" />             <!-- 击杀单位50%的文化 -->
         <!-- 单位获得额外能力 -->
@@ -10,6 +13,7 @@
         <!-- TECH -->
         <Row ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"        ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />         <!-- 占星术 -->
         <Row ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING"     ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />         <!-- 造船术 -->
+        <Row ModifierId="INF_AB_SCI_GRANT_STIRRUPS"         ModifierType="MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY" />         <!-- 马镫 -->
         <!-- 外交事件触发能力 -->
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                          ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布突袭战争+2移速 -->
         <Row ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"             ModifierType="MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER" />                  <!-- 宣布领土扩张战争+2移速 -->
@@ -29,6 +33,9 @@
         <Row ModifierID="INF_GREATWORK_HEROIC_RELIC_FOOD_ADD_02"	ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD"/>      <!-- 英雄遗物/食物/+2 -->
     </Modifiers>
     <ModifierArguments>
+        <!-- 单位获得额外移动力 -->
+        <Row ModifierId="INF_AB_UNIT_MOVE_ADD_01" Name="Amount" Value="1" />
+        <Row ModifierId="INF_AB_UNIT_MOVE_ADD_02" Name="Amount" Value="2" />
         <!-- 单位击杀额外获取 -->
         <Row ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER" Name="YieldType"               Value="YIELD_CULTURE" />
         <Row ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER" Name="PercentDefeatedStrength" Value="50" />
@@ -37,8 +44,9 @@
         <!-- 城市效果 -->
         <Row ModifierId="INF_AB_CAPTURE_CITY_HEAL_100PER" Name="ModifierId" Value="INF_AB_CITY_CAPTURE_CITY_HEAL_100PER" />
         <!-- TECH -->
-		<Row ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"    Name="TechType" Value="TECH_ASTROLOGY"    />
-		<Row ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" Name="TechType" Value="TECH_SHIPBUILDING" />
+		<Row ModifierId="INF_AB_SCI_GRANT_ASTROLOGY"    Name="TechType" Value="TECH_ASTROLOGY"      />
+		<Row ModifierId="INF_AB_SCI_GRANT_SHIPBUILDING" Name="TechType" Value="TECH_SHIPBUILDING"   />
+        <Row ModifierId="INF_AB_SCI_GRANT_STIRRUPS"     Name="TechType" Value="TECH_STIRRUPS"       />
         <!-- 外交事件触发能力 -->
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                  Name="DiplomaticYieldSource"    Value="SURPRISE_WAR_INITIATED" />
         <Row ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                  Name="TurnsActive"              Value="10" />
