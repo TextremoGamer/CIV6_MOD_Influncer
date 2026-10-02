@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+    <Modifiers>
+        <!-- 占领城市效果 -->
+        <Row ModifierId="INF_AB_CITY_CAPTURE_CITY_HEAL_100PER" ModifierType="MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE" Permanent="true" RunOnce="true" />     <!-- 恢复100%的生命值（详见DLC\Macedonia_Persia\Data\Macedonia_Persia_GameplayData.xml） -->
+    </Modifiers>
+    <ModifierArguments>
+        <Row ModifierId="INF_AB_CITY_CAPTURE_CITY_HEAL_100PER" Name="Amount" Value="-100" />
+    </ModifierArguments>
+</GameInfo>

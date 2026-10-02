@@ -2,6 +2,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
   	<LocalizedText>
+        <!-- 亚历山大 -->
+        <Replace Tag="LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION" Language="zh_Hans_CN" Text="城市不会产生厌战情绪。占领城市时，所有军事单位的体力值将完全恢复。" />
+        <Replace Tag="LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION" Language="en_US"      Text="Cities do not incur war weariness. All military units heal completely when capturing a city." />
         <!-- QinAlt -->
         <Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_NAME" Language="zh_Hans_CN" Text="军功二十等爵位制" />
         <Replace Tag="LOC_TRAIT_LEADER_QIN_ALT_NAME" Language="en_US" Text="Qin Twenty Ranks of Noble Titles" />

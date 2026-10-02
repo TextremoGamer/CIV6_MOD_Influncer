@@ -85,6 +85,7 @@
 		<UpdateDatabase id="INF_DB">
 			<File>lib/reqset.xml</File>
 			<File>lib/req.xml</File>
+			<File>lib/ab/ab_city.xml</File>
 			<File>lib/ab/ab_unit.xml</File>
 			<File>lib/ab/ab.xml</File>
 			<!-- 文明/中国 -->
@@ -149,6 +150,7 @@
 		<!-- lib库 -->
 		<File>lib/reqset.xml</File>
 		<File>lib/req.xml</File>
+		<File>lib/ab/ab_city.xml</File>
 		<File>lib/ab/ab_unit.xml</File>
 		<File>lib/ab/ab.xml</File>
 

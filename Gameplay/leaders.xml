@@ -6,17 +6,21 @@
     </ModifierArguments>
 
     <TraitModifiers>
+        <!-- 亚历沙大 -->
+        <!-- 占领城市生命值恢复 -->
+        <Delete TraitType="TRAIT_LEADER_TO_WORLDS_END"  ModifierId="TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE"   />
+        <Row    TraitType="TRAIT_LEADER_TO_WORLDS_END"  ModifierId="INF_AB_CAPTURE_CITY_HEAL_100PER"            />  
         <!-- QinAlt (see DLC\RulersOfChina\Data\RulersOfChina_Leaders.xml) -->
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02" />        
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02" />                            <!-- 战争时获得双倍厌战情绪 -->
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_ADD_01" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_COMBAT_STRENGTH_ADD_01" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER" />
-        <Row TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER" />
-		<Delete TraitType="TRAIT_LEADER_QIN" ModifierId="QIN_MELEE_UNIT_ABILITY"/>
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_SURPRISE_WAR_MOVE_ADD_02"                      />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_TERRITORIAL_EXPANSION_WAR_MOVE_ADD_02"         />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_LIBERATION_WAR_WAR_MOVE_ADD_02"                />        
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_INIT_RECE_WAR_MOVE_ADD_02"                          />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_WAR_WEARINESS_SELF_TIMES_02"                        />  <!-- 战争时获得双倍厌战情绪 -->
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_ADD_01"                                   />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_FAVOR_ADD_05"                             />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_SLOT_MILI_COMBAT_STRENGTH_ADD_01"                   />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_KILL_BONUS_CULTURE_50PER"                           />
+        <Row    TraitType="TRAIT_LEADER_QIN" ModifierId="INF_AB_UNIT_GRANT_AB_LAND_KILL_GREAT_GENERAL_POINT_25PER"  />
+		<Delete TraitType="TRAIT_LEADER_QIN" ModifierId="QIN_MELEE_UNIT_ABILITY"                                    />
     </TraitModifiers>
 </GameInfo>
