@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameInfo>
+    <!-- 没有效果（来自DLC\Babylon\Data\Babylon_Heroes_MODE.xml）-->
+	<HeroClassProgressions>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_CLASSICAL"/>    <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_MEDIEVAL"/>     <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_RENAISSANCE"/>  <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_INDUSTRIAL"/>   <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_MODERN"/>       <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_ATOMIC"/>       <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+        <Update><Where HeroClassType="HEROCLASS_MULAN" EraType="ERA_INFORMATION"/>  <Set CombatStrength="1" RangedCombatStrength="1"/></Update>
+    </HeroClassProgressions>
+</GameInfo>
